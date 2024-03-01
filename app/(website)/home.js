@@ -16,11 +16,11 @@ export default function Post({ posts }) {
       <Container large>
         {featuredPost.length > 4 && (
           <>
-            {/* <div className="flex items-center justify-center mt-10 brita uppercase">
+            <div className="flex items-center justify-center mt-10 centima uppercase">
               <h2 className="text-2xl">
-                <strong>Featured</strong>
+                <strong>Recent Projects</strong>
               </h2>
-            </div> */}
+            </div>
             <div className="grid gap-10 mt-10 mb-20 lg:gap-10 md:grid-cols-3 lg:grid-cols-4 border-b pb-10">
               {featuredPost.slice(1, 2).map(post => (
                 <div

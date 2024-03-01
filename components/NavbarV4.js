@@ -10,9 +10,9 @@ export default function NavbarV4({ posts }) {
           class="relative mx-auto flex w-full max-w-[85rem] basis-full flex-wrap items-center px-4 sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8"
           aria-label="Global">
           <div class="flex items-center justify-between">
-            <Link href="/" className="w-28 p-2">
+            <Link href="/" className="w-60 p-2">
               <h1 class="centima mx-auto max-w-4xl text-3xl font-extrabold uppercase text-gray-800">
-                GLZE<span class="text-xs text-black">&copy;</span>
+                FRANK<span class="text-xs text-black">&copy;</span>
               </h1>
             </Link>
           </div>
@@ -27,7 +27,7 @@ export default function NavbarV4({ posts }) {
                 aria-label="Toggle navigation">
                 MENU
                 <svg
-                  class="hs-overlay-open:hidden size-4"
+                  class="size-4 hs-overlay-open:hidden"
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
                   height="24"
@@ -74,7 +74,7 @@ export default function NavbarV4({ posts }) {
                 aria-controls="navbar-secondary-content"
                 aria-label="Toggle navigation">
                 <svg
-                  class="hs-collapse-open:hidden size-6 flex-shrink-0"
+                  class="size-6 flex-shrink-0 hs-collapse-open:hidden"
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
                   height="24"
@@ -89,7 +89,7 @@ export default function NavbarV4({ posts }) {
                   <line x1="3" x2="21" y1="18" y2="18" />
                 </svg>
                 <svg
-                  class="hs-collapse-open:block hidden size-6 flex-shrink-0"
+                  class="hidden size-6 flex-shrink-0 hs-collapse-open:block"
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
                   height="24"
@@ -108,28 +108,23 @@ export default function NavbarV4({ posts }) {
 
           <div
             id="navbar-offcanvas-example"
-            class="hs-overlay hs-overlay-open:translate-x-0 fixed start-0 top-0 z-[60] hidden h-full w-full max-w-xs grow basis-full -translate-x-full transform border-e bg-white transition-all duration-300 dark:border-r-gray-700 dark:bg-gray-800 sm:static sm:z-40 sm:order-2 sm:block sm:h-auto sm:w-auto sm:max-w-none sm:basis-auto sm:translate-x-0 sm:border-r-transparent sm:transition-none sm:dark:border-r-transparent"
+            class="hs-overlay fixed start-0 top-0 z-[60] hidden h-full w-full max-w-xs grow basis-full -translate-x-full transform border-e bg-white transition-all duration-300 hs-overlay-open:translate-x-0 dark:border-r-gray-700 dark:bg-gray-800 sm:static sm:z-40 sm:order-2 sm:block sm:h-auto sm:w-auto sm:max-w-none sm:basis-auto sm:translate-x-0 sm:border-r-transparent sm:transition-none sm:dark:border-r-transparent"
             tabindex="-1"
             data-hs-overlay-close-on-resize>
             <div class="mt-5 flex flex-col gap-x-0 gap-y-4 sm:mt-0 sm:flex-row sm:items-center sm:justify-end sm:gap-x-7 sm:gap-y-0 sm:ps-7">
               <Link href="/" className="w-28 px-6 sm:px-0 sm:py-6">
                 <h1 class="centima text-md mx-auto font-extrabold uppercase text-gray-800">
-                  OCEAN
+                  PROJECTS
                 </h1>
               </Link>
               <Link href="/" className="w-28 px-6 sm:px-0 sm:py-6">
                 <h1 class="centima text-md mx-auto font-extrabold uppercase text-gray-800">
-                  PEAR
+                  BLOG
                 </h1>
               </Link>
               <Link href="/" className="w-28 px-6 sm:px-0 sm:py-6">
                 <h1 class="centima text-md mx-auto font-extrabold uppercase text-gray-800">
-                  CHARGING
-                </h1>
-              </Link>
-              <Link href="/" className="w-28 px-6 sm:px-0 sm:py-6">
-                <h1 class="centima text-md mx-auto font-extrabold uppercase text-gray-800">
-                  LIFESTYLE
+                  HOBBIES
                 </h1>
               </Link>
               <Link
@@ -146,12 +141,12 @@ export default function NavbarV4({ posts }) {
 
       <div
         id="navbar-secondary-content"
-        class="hs-overlay hs-overlay-open:translate-x-0 fixed start-0 top-0 z-[60] hidden h-full w-full max-w-2xl -translate-x-full transform bg-[#1f1f1e] transition-all duration-300 dark:bg-gray-800"
+        class="hs-overlay fixed start-0 top-0 z-[60] hidden h-full w-full max-w-2xl -translate-x-full transform bg-[#1f1f1e] transition-all duration-300 hs-overlay-open:translate-x-0 dark:bg-gray-800"
         tabindex="-1">
         <div class="flex items-center justify-between px-4 py-3 lg:px-8">
-          <Link href="/" className="w-28">
+          <Link href="/" className="w-60">
             <h1 class="centima mx-auto max-w-4xl text-3xl font-extrabold uppercase text-white">
-              GLZE<span class="text-xs text-white">&copy;</span>
+              FRANK<span class="text-xs text-white">&copy;</span>
             </h1>
           </Link>
           <button
@@ -204,7 +199,7 @@ export default function NavbarV4({ posts }) {
                     href="/"
                     className="w-28 rounded-md p-2 px-6 text-left sm:px-0 sm:py-6 ">
                     <h1 class="centima text-md mx-auto text-left font-extrabold uppercase text-white">
-                      OCEAN
+                      PROJECTS
                     </h1>
                   </Link>
                 </li>
@@ -213,7 +208,7 @@ export default function NavbarV4({ posts }) {
                     href="/"
                     className="w-28 rounded-md p-2 px-6 sm:px-0 sm:py-6">
                     <h1 class="centima text-md mx-auto font-extrabold uppercase text-white">
-                      PEAR
+                      BLOG
                     </h1>
                   </Link>
                 </li>
@@ -222,16 +217,7 @@ export default function NavbarV4({ posts }) {
                     href="/"
                     className="w-28 rounded-md p-2 px-6 sm:px-0 sm:py-6">
                     <h1 class="centima text-md mx-auto font-extrabold uppercase text-white">
-                      CHARGING
-                    </h1>
-                  </Link>
-                </li>
-                <li className="rounded-sm">
-                  <Link
-                    href="/"
-                    className="w-28 rounded-md p-2 px-6 sm:px-0 sm:py-6">
-                    <h1 class="centima text-md mx-auto font-extrabold uppercase text-white">
-                      LIFESTYLE
+                      HOBBIES
                     </h1>
                   </Link>
                 </li>
@@ -247,27 +233,26 @@ export default function NavbarV4({ posts }) {
               </ul>
             </div>
           </div>
-       
         </div>
         <>
-            {posts && (
-              <div className="mx-auto w-full px-8 lg:max-w-7xl lg:px-0">
-                <div className="grid h-full gap-10 py-10 md:grid-cols-12 lg:gap-10">
-                  <div className="h-full lg:col-span-8">
-                    {posts.slice(1, 2).map(post => (
-                      <PostList
-                        key={post._id}
-                        post={post}
-                        aspect="landscape"
-                        preloadImage={true}
-                        pathPrefix={"sidebar"}
-                      />
-                    ))}
-                  </div>
+          {posts && (
+            <div className="mx-auto w-full px-8 lg:max-w-7xl lg:px-0">
+              <div className="grid h-full gap-10 py-10 md:grid-cols-12 lg:gap-10">
+                <div className="h-full lg:col-span-8">
+                  {posts.slice(1, 2).map(post => (
+                    <PostList
+                      key={post._id}
+                      post={post}
+                      aspect="landscape"
+                      preloadImage={true}
+                      pathPrefix={"sidebar"}
+                    />
+                  ))}
                 </div>
               </div>
-            )}
-          </>
+            </div>
+          )}
+        </>
       </div>
     </div>
   );
