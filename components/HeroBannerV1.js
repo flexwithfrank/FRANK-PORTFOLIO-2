@@ -11,10 +11,18 @@ const styles = {
 
 export default function HeroBannerV1() {
   return (
-    <div className="relative mt-20 lg:px-0 px-8 lg:max-w-7xl mx-auto">
+    <div className="relative mx-auto mt-20 px-8 lg:max-w-7xl lg:px-0">
       <div className="relative">
+        <div className="py-6">
+          <img
+            class="h-32 w-32 rounded-full"
+            src="https://ik.imagekit.io/is20rnl48/DSC_5283%20(1).jpg?updatedAt=1709309781808"
+            alt="image description"
+          />
+        </div>
         <h2 className="brita tracking-loose mb-6 font-sans text-3xl font-bold uppercase text-black sm:text-7xl sm:leading-none">
-          SEATTLE BASED SALESFORCE DEVELOPER FOCUSED ON CUSTOMER SUCCESS.
+          SEATTLE BASED SALESFORCE DEVELOPER FOCUSED ON CUSTOMER
+          SUCCESS.
         </h2>
       </div>
 

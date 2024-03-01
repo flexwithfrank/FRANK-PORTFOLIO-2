@@ -230,6 +230,24 @@ export default function NavbarV4({ posts }) {
                     </h1>
                   </Link>
                 </li>
+                <li className="rounded-sm">
+                  <Link
+                    href="/"
+                    className="w-28 rounded-md p-2 px-6 sm:px-0 sm:py-6">
+                    <h1 class="centima text-md mx-auto font-extrabold uppercase text-white">
+                      VFRODRIGUEZ@PROTON.ME
+                    </h1>
+                  </Link>
+                </li>
+                <li className="rounded-sm">
+                  <Link
+                    href="/"
+                    className="w-28 rounded-md p-2 px-6 sm:px-0 sm:py-6">
+                    <h1 class="centima text-md mx-auto font-extrabold uppercase text-white">
+                      SEATTLE, WA
+                    </h1>
+                  </Link>
+                </li>
               </ul>
             </div>
           </div>
