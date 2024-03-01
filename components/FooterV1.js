@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 
 export default function FooterV1() {
@@ -10,7 +11,7 @@ export default function FooterV1() {
             <div class="mx-auto max-w-[85rem] px-4 py-10 sm:px-6 sm:py-24 lg:px-8">
               <div class="text-center">
                 <h1 class="brita mx-auto max-w-4xl text-4xl font-extrabold uppercase text-gray-800 dark:text-gray-200 sm:text-6xl">
-                  Stay up-to-date on my latest projects and blog
+                  Stay up-to-date on my latest projects and blog.
                 </h1>
 
                 <div className="mx-auto max-w-md">
