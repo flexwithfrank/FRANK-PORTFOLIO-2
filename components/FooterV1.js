@@ -10,14 +10,14 @@ export default function FooterV1() {
             <div class="mx-auto max-w-[85rem] px-4 py-10 sm:px-6 sm:py-24 lg:px-8">
               <div class="text-center">
                 <h1 class="brita mx-auto max-w-4xl text-4xl font-extrabold uppercase text-gray-800 dark:text-gray-200 sm:text-6xl">
-                  Stay up-to-date on the latest Fisker News
+                  Stay up-to-date on my latest projects and blog
                 </h1>
 
                 <div className="mx-auto max-w-md">
                   <p class="dm-sans-regular my-20 text-gray-600 dark:text-gray-400">
-                    Our newsletter are a way to stay charged on all
-                    things Fisker news, events, and products. Sign up
-                    today!
+                    My newsletter will keep you up to date on my
+                    latest projects and will never contain
+                    spam...never!
                   </p>
                 </div>
 
@@ -39,7 +39,7 @@ export default function FooterV1() {
                       />
                       <button
                         type="submit"
-                        class="centima align-center text-md inline-flex w-full items-center gap-3 bg-black p-4 font-extrabold uppercase leading-tight text-white hover:bg-transparent focus:outline-none focus:ring-4 focus:ring-black lg:w-80 border-2 border-black hover:text-black">
+                        class="centima align-center text-md inline-flex w-full items-center gap-3 border-2 border-black bg-black p-4 font-extrabold uppercase leading-tight text-white hover:bg-transparent hover:text-black focus:outline-none focus:ring-4 focus:ring-black lg:w-80">
                         Subscribe Now
                         <span class="absolute right-3">
                           <svg
@@ -70,13 +70,13 @@ export default function FooterV1() {
                     </span>
                   </div>
 
-                  <ul class="dm-sans-regular mt-12 flex flex-wrap justify-center gap-6 md:gap-8 lg:mt-0 lg:gap-12">
+                  <ul class="dm-sans-regular centima mt-12 flex flex-wrap justify-center gap-6 uppercase md:gap-8 lg:mt-0 lg:gap-12">
                     <li>
                       <a
                         class="text-black transition hover:text-black/75"
                         href="#">
                         {" "}
-                        About{" "}
+                        Project{" "}
                       </a>
                     </li>
 
@@ -85,7 +85,7 @@ export default function FooterV1() {
                         class="text-black transition hover:text-black/75"
                         href="#">
                         {" "}
-                        Tech{" "}
+                        Blog{" "}
                       </a>
                     </li>
 
@@ -94,19 +94,9 @@ export default function FooterV1() {
                         class="text-black transition hover:text-black/75"
                         href="#">
                         {" "}
-                        Charging{" "}
+                        Hobbies{" "}
                       </a>
                     </li>
-
-                    <li>
-                      <a
-                        class="text-black transition hover:text-black/75"
-                        href="#">
-                        {" "}
-                        Post{" "}
-                      </a>
-                    </li>
-
                     <li>
                       <a
                         class="text-black transition hover:text-black/75"
