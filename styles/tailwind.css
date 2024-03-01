@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*! purgecss start ignore */
+@import "prism.css";
+/*! purgecss end ignore */
+
+/*Custom Styles Here*/
+
+@font-face {
+    font-family: Britanica;
+    font-style: italic;
+    font-weight: 800;
+    font-display: swap;
+    src: url("https://ik.imagekit.io/is20rnl48/Fonts/britanica-bold-semi-expanded-webfont.woff2?updatedAt=1708484470469") format("woff2");
+  }
+  .brita {
+    font-family: Britanica, sans-serif !important;
+  }
+  .dm-sans-med{
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+  .dm-sans-bold{
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Centima Mono W01 Regular";
+    src: url("https://db.onlinewebfonts.com/t/d8c93de9fc5967b7452095abbc3db4b9.eot");
+    src: url("https://db.onlinewebfonts.com/t/d8c93de9fc5967b7452095abbc3db4b9.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/d8c93de9fc5967b7452095abbc3db4b9.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/d8c93de9fc5967b7452095abbc3db4b9.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/d8c93de9fc5967b7452095abbc3db4b9.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/d8c93de9fc5967b7452095abbc3db4b9.svg#Centima Mono W01 Regular")format("svg");
+}
+
+.centima{
+    font-family: "Centima Mono W01 Regular", sans-serif !important;
+}

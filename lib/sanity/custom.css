@@ -1,0 +1,49 @@
+/* --- Custom CSS for Sanity Studio --- */
+/* ------ Created by Surjith SM ------- */
+/* ---- https://x.com/surjithctly ----- */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-size: 18px;
+}
+
+[data-ui="Spinner"] {
+  width: 1.3rem !important;
+  height: 1.3rem !important;
+}
+
+[data-ui="Spinner"] [data-sanity-icon="spinner"] {
+  width: 1.3rem !important;
+  height: 1.3rem !important;
+  margin: 0 !important;
+}
+
+[data-scheme="light"][data-tone="default"] {
+  --card-fg-color: #252837;
+  --card-border-color: #ced2d9;
+}
+
+*:not(:disabled) + [data-scheme="light"][data-tone="default"][data-border] {
+  --input-box-shadow: inset 0 0 0 1px #ced2d9 !important;
+}
+[data-scheme="light"] [data-ui="Select"] select {
+  box-shadow: inset 0 0 0 1px #ced2d9;
+}
+
+[data-as="form"] > [data-ui="Stack"] {
+  grid-gap: 1.4rem;
+}
+
+[data-as="fieldset"] > [data-ui="Box"] > [data-ui="Grid"] > [data-ui="Stack"] {
+  grid-gap: 1.4rem;
+}
+
+[data-ui="Stack"] [data-as="div"] + [data-ui="Text"] span {
+  font-size: 0.76rem;
+  line-height: calc(10 / 13);
+}
