@@ -7,18 +7,16 @@ export default function FooterV1() {
       <div>
         <div>
           {/* <!-- Hero --> */}
-          <div class="relative min-h-screen overflow-hidden bg-[#ff3c00]">
+          <div class="relative min-h-screen overflow-hidden bg-[#ff3c00] opacity-90">
             <div class="mx-auto max-w-[85rem] px-4 py-10 sm:px-6 sm:py-24 lg:px-8">
               <div class="text-center">
                 <h1 class="impact mx-auto max-w-4xl text-5xl font-extrabold uppercase text-white dark:text-gray-200 sm:text-8xl">
-                  LETS connect
+                   CONNECT WITH ME.
                 </h1>
 
                 <div className="mx-auto max-w-md">
                   <p class="dm-sans-regular my-20 text-white dark:text-gray-400">
-                    My newsletter will keep you up to date on my
-                    latest projects and will never contain
-                    spam...never!
+                  Stay in the loop with my latest projects! Sign up for my newsletter and never worry about receiving spam -  promise!
                   </p>
                 </div>
 

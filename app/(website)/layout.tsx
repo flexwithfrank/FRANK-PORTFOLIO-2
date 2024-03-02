@@ -78,12 +78,12 @@ export default async function Layout({
       <body className="w-full bg-[#f4f0e6] text-gray-800 antialiased dark:bg-black dark:text-gray-400">
         <Providers>
           {/* <GetNavbar {...settings} /> */}
-          {/* <NavbarV4 /> */}
+          <NavbarV4 />
 
           <div>{children}</div>
-          <Footer {...settings} />
+          {/* <Footer {...settings} /> */}
 
-          {/* <FooterV1 /> */}
+          <FooterV1 />
         </Providers>
       </body>
       <PrelineScript />
