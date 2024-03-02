@@ -7,15 +7,15 @@ export default function FooterV1() {
       <div>
         <div>
           {/* <!-- Hero --> */}
-          <div class="relative min-h-screen overflow-hidden bg-[#c9ec66]">
+          <div class="relative min-h-screen overflow-hidden bg-[#ff3c00]">
             <div class="mx-auto max-w-[85rem] px-4 py-10 sm:px-6 sm:py-24 lg:px-8">
               <div class="text-center">
-                <h1 class="brita mx-auto max-w-4xl text-4xl font-extrabold uppercase text-gray-800 dark:text-gray-200 sm:text-6xl">
-                  Stay up-to-date on my latest projects and blog.
+                <h1 class="impact mx-auto max-w-4xl text-5xl font-extrabold uppercase text-white dark:text-gray-200 sm:text-8xl">
+                  Let's connect
                 </h1>
 
                 <div className="mx-auto max-w-md">
-                  <p class="dm-sans-regular my-20 text-gray-600 dark:text-gray-400">
+                  <p class="dm-sans-regular my-20 text-white dark:text-gray-400">
                     My newsletter will keep you up to date on my
                     latest projects and will never contain
                     spam...never!
@@ -27,20 +27,20 @@ export default function FooterV1() {
                   <form>
                     <label
                       for="search"
-                      class="sr-only mb-2 text-sm font-medium text-gray-900 dark:text-white">
+                      class="sr-only mb-2 text-sm font-medium text-white dark:text-white">
                       Search
                     </label>
                     <div class="relative flex flex-col items-center gap-8 align-middle lg:flex-row">
                       <input
                         type="search"
                         id="search"
-                        class="centima block w-full border border-black bg-transparent p-4 text-sm uppercase leading-tight text-gray-900 focus:border-black focus:outline-0 focus:ring-0 focus:ring-black"
+                        class="centima block w-full border border-white bg-transparent p-4 text-sm uppercase leading-tight text-white focus:border-white focus:outline-0 focus:ring-0 focus:ring-white"
                         placeholder="Email"
                         required
                       />
                       <button
                         type="submit"
-                        class="centima align-center text-md inline-flex w-full items-center gap-3 border-2 border-black bg-black p-4 font-extrabold uppercase leading-tight text-white hover:bg-transparent hover:text-black focus:outline-none focus:ring-4 focus:ring-black lg:w-80">
+                        class="centima align-center text-md inline-flex w-full items-center gap-3 border-2 border-white bg-white p-4 font-extrabold uppercase leading-tight text-black hover:bg-transparent hover:text-white focus:outline-none focus:ring-4 focus:ring-white lg:w-80">
                         Subscribe Now
                         <span class="absolute right-3">
                           <svg
@@ -65,7 +65,7 @@ export default function FooterV1() {
 
               <footer class="bg-transparent pt-20">
                 <div class="max-w-8xl align-center mx-auto flex flex-col items-center justify-between px-4 py-8 sm:px-6 lg:flex-row lg:px-8">
-                  <div class="flex justify-center text-black">
+                  <div class="flex justify-center text-white">
                     <span className="centima font-extrabold uppercase leading-tight">
                       GLZE MEDIA &copy;
                     </span>
@@ -74,7 +74,7 @@ export default function FooterV1() {
                   <ul class="dm-sans-regular centima mt-12 flex flex-wrap justify-center gap-6 uppercase md:gap-8 lg:mt-0 lg:gap-12">
                     <li>
                       <a
-                        class="text-black transition hover:text-black/75"
+                        class="text-white transition hover:text-white/75"
                         href="#">
                         {" "}
                         Project{" "}
@@ -83,7 +83,7 @@ export default function FooterV1() {
 
                     <li>
                       <a
-                        class="text-black transition hover:text-black/75"
+                        class="text-white transition hover:text-white/75"
                         href="#">
                         {" "}
                         Blog{" "}
@@ -92,7 +92,7 @@ export default function FooterV1() {
 
                     <li>
                       <a
-                        class="text-black transition hover:text-black/75"
+                        class="text-white transition hover:text-white/75"
                         href="#">
                         {" "}
                         Hobbies{" "}
@@ -100,7 +100,7 @@ export default function FooterV1() {
                     </li>
                     <li>
                       <a
-                        class="text-black transition hover:text-black/75"
+                        class="text-white transition hover:text-white/75"
                         href="#">
                         {" "}
                         Contact{" "}
@@ -114,7 +114,7 @@ export default function FooterV1() {
                         href="#"
                         rel="noreferrer"
                         target="_blank"
-                        class="text-black transition hover:text-black/75">
+                        class="text-white transition hover:text-white/75">
                         <span class="sr-only">Facebook</span>
                         <svg
                           class="h-9 w-9"
@@ -135,7 +135,7 @@ export default function FooterV1() {
                         href="#"
                         rel="noreferrer"
                         target="_blank"
-                        class="text-black transition hover:text-black/75">
+                        class="text-white transition hover:text-white/75">
                         <span class="sr-only">Instagram</span>
                         <svg
                           class="h-9 w-9"
@@ -156,7 +156,7 @@ export default function FooterV1() {
                         href="#"
                         rel="noreferrer"
                         target="_blank"
-                        class="text-black transition hover:text-black/75">
+                        class="text-white transition hover:text-white/75">
                         <span class="sr-only">Twitter</span>
                         <svg
                           class="h-9 w-9"
@@ -173,7 +173,7 @@ export default function FooterV1() {
                         href="#"
                         rel="noreferrer"
                         target="_blank"
-                        class="text-black transition hover:text-black/75">
+                        class="text-white transition hover:text-white/75">
                         <span class="sr-only">GitHub</span>
                         <svg
                           class="h-9 w-9"
@@ -191,7 +191,7 @@ export default function FooterV1() {
                   </ul>
                 </div>
                 <span>
-                  <p class="dm-sans-regular mx-auto mt-6 max-w-md text-center text-xs leading-relaxed text-gray-500 lg:mt-0">
+                  <p class="dm-sans-regular mx-auto mt-6 max-w-md text-center text-xs leading-relaxed text-gray-100 lg:mt-0">
                     Copyright © 2024 GLAZER. All Rights Reserved.
                   </p>
                 </span>
