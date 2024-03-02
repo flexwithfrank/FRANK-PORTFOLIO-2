@@ -44,3 +44,15 @@
 .centima{
     font-family: "Centima Mono W01 Regular", sans-serif !important;
 }
+
+@font-face {
+  font-family: Impact;
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("https://ik.imagekit.io/is20rnl48/Fonts/impact.ttf?updatedAt=1709340001508") format("truetype");
+  src: url("https://ik.imagekit.io/is20rnl48/Fonts/impact-webfont.woff2?updatedAt=1709340009225") format("woff2");
+}
+.impact{
+  font-family: Impact, sans-serif !important;
+}

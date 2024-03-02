@@ -96,14 +96,31 @@ export default function Post(props) {
           <div className="prose prose-lg mx-auto my-3 dark:prose-invert prose-a:text-blue-500">
             {post.body && <PortableText value={post.body} />}
           </div>
-          <div className="mb-7 mt-7 flex justify-center">
-            <Link
-              href="/"
-              className="bg-brand-secondary/20 rounded-full px-5 py-2 text-sm text-blue-600 dark:text-blue-500 ">
-              ← View all posts
-            </Link>
-          </div>
-          {post.author && <AuthorCard author={post.author} />}
+          <Link
+            href="/archive"
+            className="mb-7 mt-7 flex items-center justify-center gap-6">
+            <span className="centima font-extrabold uppercase">
+              View All Post
+            </span>
+            <div className="me-2 inline-flex items-center rounded-full bg-[#c9ec66] p-3 px-3 text-center text-sm font-medium text-black hover:bg-[#c9ec66] focus:outline-none focus:ring-0">
+              <span className="sr-only">View All Post</span>
+              <svg
+                className="h-5 w-5"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 14 10">
+                <path
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="1.5"
+                  d="M1 5h12m0 0L9 1m4 4L9 9"
+                />
+              </svg>
+            </div>
+          </Link>
+          {/* {post.author && <AuthorCard author={post.author} />} */}
         </article>
       </Container>
     </>

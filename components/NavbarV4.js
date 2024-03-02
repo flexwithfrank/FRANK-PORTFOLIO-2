@@ -5,7 +5,7 @@ import PostList from "@/components/postlist";
 export default function NavbarV4({ posts }) {
   return (
     <div>
-      <header class="z-50 flex w-full flex-wrap border-b border-gray-200 bg-white py-3 text-sm dark:bg-gray-800 sm:flex-nowrap sm:justify-start sm:py-0">
+      <header class="z-50 flex w-full flex-wrap border-b border-gray-200 bg-[#f4f0e6] py-3 text-sm dark:bg-gray-800 sm:flex-nowrap sm:justify-start sm:py-0">
         <nav
           class="relative mx-auto flex w-full max-w-[85rem] basis-full flex-wrap items-center px-4 sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8"
           aria-label="Global">
@@ -21,7 +21,7 @@ export default function NavbarV4({ posts }) {
             <div class="sm:hidden">
               <button
                 type="button"
-                class="centima inline-flex items-center justify-center gap-2 rounded-lg border bg-white p-2 align-middle text-xs font-medium text-gray-700 shadow-sm transition-all hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-gray-600 focus:ring-offset-2 focus:ring-offset-white dark:bg-gray-800 dark:text-gray-400 dark:hover:bg-slate-800 dark:hover:text-white dark:focus:ring-offset-gray-800"
+                class="centima inline-flex items-center justify-center gap-2 rounded-lg border bg-[#f4f0e6] p-2 align-middle text-xs font-medium text-gray-700 shadow-sm transition-all hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-gray-600 focus:ring-offset-2 focus:ring-offset-white dark:bg-gray-800 dark:text-gray-400 dark:hover:bg-slate-800 dark:hover:text-white dark:focus:ring-offset-gray-800"
                 data-hs-overlay="#navbar-offcanvas-example"
                 aria-controls="navbar-offcanvas-example"
                 aria-label="Toggle navigation">
@@ -108,7 +108,7 @@ export default function NavbarV4({ posts }) {
 
           <div
             id="navbar-offcanvas-example"
-            class="hs-overlay fixed start-0 top-0 z-[60] hidden h-full w-full max-w-xs grow basis-full -translate-x-full transform border-e bg-white transition-all duration-300 hs-overlay-open:translate-x-0 dark:border-r-gray-700 dark:bg-gray-800 sm:static sm:z-40 sm:order-2 sm:block sm:h-auto sm:w-auto sm:max-w-none sm:basis-auto sm:translate-x-0 sm:border-r-transparent sm:transition-none sm:dark:border-r-transparent"
+            class="hs-overlay fixed start-0 top-0 z-[60] hidden h-full w-full max-w-xs grow basis-full -translate-x-full transform border-e bg-[#f4f0e6] transition-all duration-300 hs-overlay-open:translate-x-0 dark:border-r-gray-700 dark:bg-gray-800 sm:static sm:z-40 sm:order-2 sm:block sm:h-auto sm:w-auto sm:max-w-none sm:basis-auto sm:translate-x-0 sm:border-r-transparent sm:transition-none sm:dark:border-r-transparent"
             tabindex="-1"
             data-hs-overlay-close-on-resize>
             <div class="mt-5 flex flex-col gap-x-0 gap-y-4 sm:mt-0 sm:flex-row sm:items-center sm:justify-end sm:gap-x-7 sm:gap-y-0 sm:ps-7">

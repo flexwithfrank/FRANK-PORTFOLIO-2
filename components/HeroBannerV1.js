@@ -20,9 +20,8 @@ export default function HeroBannerV1() {
             alt="image description"
           />
         </div>
-        <h2 className="brita tracking-loose mb-6 font-sans text-3xl font-bold uppercase text-black sm:text-7xl sm:leading-none">
-          SEATTLE BASED SALESFORCE DEVELOPER FOCUSED ON CUSTOMER
-          SUCCESS.
+        <h2 className="brita tracking-loose mb-6 font-sans text-3xl font-bold uppercase text-[#ff3c00] sm:text-[9rem] sm:leading-none impact tracking-tight">
+          SEATTLE BASED SALESFORCE DEV.
         </h2>
       </div>
 

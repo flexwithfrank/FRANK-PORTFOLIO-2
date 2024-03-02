@@ -75,7 +75,7 @@ export default async function Layout({
       lang="en"
       suppressHydrationWarning
       className={cx(inter.variable, lora.variable)}>
-      <body className="w-full text-gray-800 antialiased dark:bg-black dark:text-gray-400">
+      <body className="w-full bg-[#f4f0e6] text-gray-800 antialiased dark:bg-black dark:text-gray-400">
         <Providers>
           {/* <GetNavbar {...settings} /> */}
           <NavbarV4 />
