@@ -45,39 +45,36 @@ export default function Contact({ settings }) {
 
   return (
     <Container>
-      <h1 className="mt-2 mb-3 text-3xl font-semibold tracking-tight text-center lg:leading-snug text-brand-primary lg:text-4xl dark:text-white">
-        Contact
+      <h1 className="impact mb-3 mt-2 text-center text-3xl font-semibold uppercase tracking-tight text-[#ff3c00] dark:text-white lg:text-7xl lg:leading-snug">
+        Contact Me
       </h1>
-      <div className="text-center">
-        <p className="text-lg">We are a here to help.</p>
-      </div>
-
-      <div className="grid my-10 md:grid-cols-2">
+      <div className="my-10 grid md:grid-cols-2">
         <div className="my-10">
-          <h2 className="text-2xl font-semibold dark:text-white">
-            Contact Stablo
-          </h2>
-          <p className="max-w-sm mt-5">
-            Have something to say? We are here to help. Fill up the
-            form or send email or call phone.
+          {/* <h2 className="text-3xl font-semibold dark:text-white text-[#ff3c00] impact uppercase">
+            HAPPY TO HELP
+          </h2> */}
+          <p className="dm-sans-med mt-5 max-w-sm text-xl text-[#ff3c00]">
+            I am looking forward to hearing from you! Please feel free
+            to get in touch via the form below, I will get back to you
+            as soon as possible.
           </p>
 
-          <div className="mt-5">
-            <div className="flex items-center mt-2 space-x-2 text-dark-600 dark:text-gray-400">
-              <MapPinIcon className="w-4 h-4" />
-              <span>1734 Sanfransico, CA 93063</span>
+          <div className="dm-sans-bold mt-5">
+            <div className="mt-2 flex items-center space-x-2 text-[#ff3c00] dark:text-gray-400">
+              <MapPinIcon className="h-4 w-4" />
+              <span>Seattle, WA</span>
             </div>
             {settings?.email && (
-              <div className="flex items-center mt-2 space-x-2 text-dark-600 dark:text-gray-400">
-                <EnvelopeIcon className="w-4 h-4" />
+              <div className="mt-2 flex items-center space-x-2 text-[#ff3c00] dark:text-gray-400">
+                <EnvelopeIcon className="h-4 w-4" />
                 <a href={`mailto:${settings.email}`}>
                   {settings.email}
                 </a>
               </div>
             )}
             {settings?.phone && (
-              <div className="flex items-center mt-2 space-x-2 text-dark-600 dark:text-gray-400">
-                <PhoneIcon className="w-4 h-4" />
+              <div className="mt-2 flex items-center space-x-2 text-[#ff3c00] dark:text-gray-400">
+                <PhoneIcon className="h-4 w-4" />
                 <a href={`tel:${settings.phone}`}>{settings.phone}</a>
               </div>
             )}
@@ -97,10 +94,10 @@ export default function Contact({ settings }) {
                 type="text"
                 placeholder="Full Name"
                 autoComplete="false"
-                className={`w-full px-4 py-3 border-2 placeholder:text-gray-800 dark:text-white rounded-md outline-none dark:placeholder:text-gray-200 dark:bg-gray-900   focus:ring-4  ${
+                className={`dm-sans-bold w-full rounded-md border bg-transparent px-4 py-3 outline-none placeholder:text-gray-800 focus:ring-4 dark:bg-gray-900 dark:text-white dark:placeholder:text-gray-200  ${
                   errors.name
-                    ? "border-red-600 focus:border-red-600 ring-red-100 dark:ring-0"
-                    : "border-gray-300 focus:border-gray-600 ring-gray-100 dark:border-gray-600 dark:focus:border-white dark:ring-0"
+                    ? "border-red-600 ring-red-100 focus:border-red-600 dark:ring-0"
+                    : "border-gray-300 ring-gray-100 focus:border-gray-600 dark:border-gray-600 dark:ring-0 dark:focus:border-white"
                 }`}
                 {...register("name", {
                   required: "Full name is required",
@@ -124,10 +121,10 @@ export default function Contact({ settings }) {
                 placeholder="Email Address"
                 name="email"
                 autoComplete="false"
-                className={`w-full px-4 py-3 border-2 placeholder:text-gray-800 dark:text-white rounded-md outline-none dark:placeholder:text-gray-200 dark:bg-gray-900   focus:ring-4  ${
+                className={`dm-sans-bold w-full rounded-md border bg-transparent px-4 py-3 outline-none placeholder:text-gray-800 focus:ring-4 dark:bg-gray-900 dark:text-white dark:placeholder:text-gray-200  ${
                   errors.email
-                    ? "border-red-600 focus:border-red-600 ring-red-100 dark:ring-0"
-                    : "border-gray-300 focus:border-gray-600 ring-gray-100 dark:border-gray-600 dark:focus:border-white dark:ring-0"
+                    ? "border-red-600 ring-red-100 focus:border-red-600 dark:ring-0"
+                    : "border-gray-300 ring-gray-100 focus:border-gray-600 dark:border-gray-600 dark:ring-0 dark:focus:border-white"
                 }`}
                 {...register("email", {
                   required: "Enter your email",
@@ -148,10 +145,10 @@ export default function Contact({ settings }) {
               <textarea
                 name="message"
                 placeholder="Your Message"
-                className={`w-full px-4 py-3 border-2 placeholder:text-gray-800 dark:text-white dark:placeholder:text-gray-200 dark:bg-gray-900   rounded-md outline-none  h-36 focus:ring-4  ${
+                className={`h-36 w-full rounded-md border px-4 py-3 outline-none placeholder:text-gray-800   focus:ring-4 dark:bg-gray-900  dark:text-white dark:placeholder:text-gray-200  ${
                   errors.message
-                    ? "border-red-600 focus:border-red-600 ring-red-100 dark:ring-0"
-                    : "border-gray-300 focus:border-gray-600 ring-gray-100 dark:border-gray-600 dark:focus:border-white dark:ring-0"
+                    ? "border-red-600 ring-red-100 focus:border-red-600 dark:ring-0"
+                    : "dm-sans-bold border-gray-300 bg-transparent ring-gray-100 focus:border-gray-600 dark:border-gray-600 dark:ring-0 dark:focus:border-white"
                 }`}
                 {...register("message", {
                   required: "Enter your Message"
@@ -167,10 +164,10 @@ export default function Contact({ settings }) {
 
             <button
               type="submit"
-              className="w-full py-4 font-semibold text-white transition-colors bg-gray-900 rounded-md hover:bg-gray-800 focus:outline-none focus:ring-offset-2 focus:ring focus:ring-gray-200 px-7 dark:bg-white dark:text-black ">
+              className="w-full rounded-md bg-gray-900 px-7 py-4 font-semibold text-white transition-colors hover:bg-gray-800 focus:outline-none focus:ring focus:ring-gray-200 focus:ring-offset-2 dark:bg-white dark:text-black ">
               {isSubmitting ? (
                 <svg
-                  className="w-5 h-5 mx-auto text-white dark:text-black animate-spin"
+                  className="mx-auto h-5 w-5 animate-spin text-white dark:text-black"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24">
@@ -193,12 +190,12 @@ export default function Contact({ settings }) {
           </form>
 
           {isSubmitSuccessful && isSuccess && (
-            <div className="mt-3 text-sm text-center text-green-500">
+            <div className="mt-3 text-center text-sm text-green-500">
               {message || "Success. Message sent successfully"}
             </div>
           )}
           {isSubmitSuccessful && !isSuccess && (
-            <div className="mt-3 text-sm text-center text-red-500">
+            <div className="mt-3 text-center text-sm text-red-500">
               {message || "Something went wrong. Please try later."}
             </div>
           )}

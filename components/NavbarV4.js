@@ -117,16 +117,16 @@ export default function NavbarV4({ posts }) {
                   PROJECTS
                 </h1>
               </Link>
-              <Link href="/" className="w-28 px-6 sm:px-0 sm:py-6">
+              {/* <Link href="/" className="w-28 px-6 sm:px-0 sm:py-6">
                 <h1 class="centima text-md mx-auto font-extrabold uppercase text-gray-800">
-                  BLOG
+                  BLOG (COMING SOON)
                 </h1>
-              </Link>
-              <Link href="/" className="w-28 px-6 sm:px-0 sm:py-6">
+              </Link> */}
+              {/* <Link href="/" className="w-28 px-6 sm:px-0 sm:py-6">
                 <h1 class="centima text-md mx-auto font-extrabold uppercase text-gray-800">
                   HOBBIES
                 </h1>
-              </Link>
+              </Link> */}
               <Link
                 href="/contact"
                 className="w-28 px-6 sm:px-0 sm:py-6">
@@ -203,7 +203,7 @@ export default function NavbarV4({ posts }) {
                     </h1>
                   </Link>
                 </li>
-                <li className="rounded-sm">
+                {/* <li className="rounded-sm">
                   <Link
                     href="/"
                     className="w-28 rounded-md p-2 px-6 sm:px-0 sm:py-6">
@@ -211,8 +211,8 @@ export default function NavbarV4({ posts }) {
                       BLOG
                     </h1>
                   </Link>
-                </li>
-                <li className="rounded-sm">
+                </li> */}
+                {/* <li className="rounded-sm">
                   <Link
                     href="/"
                     className="w-28 rounded-md p-2 px-6 sm:px-0 sm:py-6">
@@ -220,10 +220,10 @@ export default function NavbarV4({ posts }) {
                       HOBBIES
                     </h1>
                   </Link>
-                </li>
+                </li> */}
                 <li className="rounded-sm">
                   <Link
-                    href="/"
+                    href="/contact"
                     className="w-28 rounded-md p-2 px-6 sm:px-0 sm:py-6">
                     <h1 class="centima text-md mx-auto font-extrabold uppercase text-white">
                       CONTACT
@@ -231,13 +231,11 @@ export default function NavbarV4({ posts }) {
                   </Link>
                 </li>
                 <li className="rounded-sm">
-                  <Link
-                    href="/"
-                    className="w-28 rounded-md p-2 px-6 sm:px-0 sm:py-6">
-                    <h1 class="centima text-md mx-auto font-extrabold uppercase text-white">
-                      VFRODRIGUEZ@PROTON.ME
-                    </h1>
-                  </Link>
+                  <a
+                    href="mailto:vfrodriguez@proton.me"
+                    className="centima text-md mx-auto w-28 rounded-md p-2 px-6 font-extrabold uppercase text-white sm:px-0 sm:py-6">
+                    VFRODRIGUEZ@PROTON.ME
+                  </a>
                 </li>
                 <li className="rounded-sm">
                   <Link
