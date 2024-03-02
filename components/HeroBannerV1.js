@@ -39,7 +39,7 @@ export default function HeroBannerV1() {
           tenetur quibusdam, quos fuga minima.
         </p>
         <h2 className="brita tracking-loose impact mb-6 font-sans text-5xl font-bold uppercase tracking-tight text-[#ff3c00] sm:text-[9rem] sm:leading-none">
-          LET'S CREATE SOMETHING
+          LETS CREATE SOMETHING
         </h2>
       </div>
     </div>

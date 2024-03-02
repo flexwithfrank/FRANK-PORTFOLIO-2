@@ -11,7 +11,7 @@ export default function FooterV1() {
             <div class="mx-auto max-w-[85rem] px-4 py-10 sm:px-6 sm:py-24 lg:px-8">
               <div class="text-center">
                 <h1 class="impact mx-auto max-w-4xl text-5xl font-extrabold uppercase text-white dark:text-gray-200 sm:text-8xl">
-                  Let's connect
+                  LETS connect
                 </h1>
 
                 <div className="mx-auto max-w-md">
