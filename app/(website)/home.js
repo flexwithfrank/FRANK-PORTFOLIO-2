@@ -50,7 +50,7 @@ export default function Post({ posts }) {
             </div>
           </>
         )}
-      </Container>
+      </Container>pnpm install --no-frozen-lockfilepnpm install --no-frozen-lockfile
 
     </>
   );
