@@ -68,7 +68,7 @@ export default function CarouselV1() {
                 </span>
               </a>
             </li>
-            <li>
+            <li className="relative">
               <a
                 href="https://mczvd2z6j1-c05qk6ttb60b92894.pub.sfmc-content.com/43r4cjua2xg"
                 target="_blank"
@@ -95,7 +95,7 @@ export default function CarouselV1() {
                 </span>
               </a>
             </li>
-            <li>
+            <li className="relative">
               <a
                 href="https://mczvd2z6j1-c05qk6ttb60b92894.pub.sfmc-content.com/m4b5yovrlom"
                 target="_blank"
@@ -121,7 +121,7 @@ export default function CarouselV1() {
                 </span>
               </a>
             </li>
-            <li>
+            <li className="relative">
               <a
                 href="https://mczvd2z6j1-c05qk6ttb60b92894.pub.sfmc-content.com/xzfnih1dfmy?qs=121b46067820d2cd95ca9230b009274ab8626c237e1cf7bdc2c3c49d6ed49ba5a62e1fe21f7b5e7884bd8e99b9bd01cd717b907ae99599b34b12f51c35ded00dd90aa030277b953b50efd8ebfb926eda9734e08a92adfddabc7a93ec124c4a25f464fe4824a0051752be440ca08e7cb23a3dd7644c21df43e8af58425f84cb9100bb17922af951e9afc5385cb477890601be1ba3ea273f85"
                 target="_blank"
