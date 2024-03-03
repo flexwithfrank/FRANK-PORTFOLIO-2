@@ -9,6 +9,7 @@ import CarouselV1 from "@/app/CarouselV1";
 import OpenText from "@/components/OpenText";
 import WhatWeDo from "@/components/WhatWeDo";
 import IndustryTags from "@/components/industryTags";
+import WhatWeDoV2 from "@/components/whatWeDoV2";
 
 export default function Post() {
   return (
@@ -16,7 +17,7 @@ export default function Post() {
       <HeroBannerV1 />
       <OpenText color="#ff3c00" p1="Recent Projects" />
       <CarouselV1 />
-      <WhatWeDo />
+      <WhatWeDoV2 />
       <IndustryTags />
     </>
   );
