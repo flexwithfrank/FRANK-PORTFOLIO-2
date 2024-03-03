@@ -11,9 +11,9 @@ const styles = {
 
 export default function HeroBannerV1() {
   return (
-    <div className="relative mx-auto mt-8 px-8 lg:max-w-7xl lg:px-0">
+    <div className="relative mx-auto mt-8 px-8 lg:max-w-7xl lg:px-0 pb-28">
       <div className="relative">
-        <div className="absolute lg:right-40 bottom-0 lg:top-0 m-8 w-32 lg:w-80 right-0">
+        <div className="absolute lg:right-40 bottom-0 lg:top-0 m-8 w-32 lg:w-80 right-0 transition-all duration-500 ease-in-out transform hover:scale-105 hover:translate-y-3  hover:shadow-2xl">
           <video
             data-v-df76ad4d=""
             playsInline

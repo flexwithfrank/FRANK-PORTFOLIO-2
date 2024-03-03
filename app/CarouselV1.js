@@ -1,7 +1,9 @@
 /* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable @next/next/no-img-element */
+"use client";
 import React, { useEffect } from "react";
 import Glide from "@glidejs/glide";
+import ButtonGroup from "@/components/ButtonGroup";
 
 export default function CarouselV1() {
   useEffect(() => {
@@ -9,7 +11,7 @@ export default function CarouselV1() {
       type: "carousel",
       focusAt: "center",
       perView: 3,
-      autoplay: 3000,
+      autoplay: 3500,
       animationDuration: 700,
       gap: 24,
       classNames: {
@@ -35,37 +37,31 @@ export default function CarouselV1() {
   return (
     <>
       {/*<!-- Component: Carousel with indicators outside --> */}
-      <div className="glide-05 relative w-full">
+      <div className="glide-05 relative w-full pb-28">
         {/*    <!-- Slides --> */}
         <div className="overflow-hidden" data-glide-el="track">
           <ul className="whitespace-no-wrap flex-no-wrap [backface-visibility: hidden] [transform-style: preserve-3d] [touch-action: pan-Y] [will-change: transform] relative flex w-full overflow-hidden p-0">
-            <li>
+            <li className="relative">
               <img
-                src="https://Tailwindmix.b-cdn.net/carousel/carousel-image-03.jpg"
+                src="https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/81p7eutj/ai4/10p/jv9/Group%2028%20%281%29.png"
                 className="m-auto max-h-full w-full max-w-full"
               />
             </li>
             <li>
               <img
-                src="https://Tailwindmix.b-cdn.net/carousel/carousel-image-04.jpg"
+                src="https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/81p7eutj/m4g/uq9/9pp/Group%2026%20%281%29.png"
                 className="m-auto max-h-full w-full max-w-full"
               />
             </li>
             <li>
               <img
-                src="https://Tailwindmix.b-cdn.net/carousel/carousel-image-05.jpg"
+                src="https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/81p7eutj/08n/nsp/6ax/Group%2025%20%282%29%20%281%29.png"
                 className="m-auto max-h-full w-full max-w-full"
               />
             </li>
             <li>
               <img
-                src="https://Tailwindmix.b-cdn.net/carousel/carousel-image-01.jpg"
-                className="m-auto max-h-full w-full max-w-full"
-              />
-            </li>
-            <li>
-              <img
-                src="https://Tailwindmix.b-cdn.net/carousel/carousel-image-02.jpg"
+                src="https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/81p7eutj/6qr/dp4/cte/Group%2027%20%281%29.png"
                 className="m-auto max-h-full w-full max-w-full"
               />
             </li>
