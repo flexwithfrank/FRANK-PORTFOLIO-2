@@ -45,7 +45,7 @@ export default function Contact({ settings }) {
   });
 
   return (
-    <Container>
+    <div className="w-full mt-6 lg:mt-12">
       <div className="grid md:grid-cols-1">
         <div>
           <form onSubmit={handleSubmit(onSubmit)}>
@@ -126,6 +126,6 @@ export default function Contact({ settings }) {
           )}
         </div>
       </div>
-    </Container>
+    </div>
   );
 }

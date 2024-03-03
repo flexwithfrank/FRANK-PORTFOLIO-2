@@ -95,6 +95,9 @@ dependencies:
   react-iframe:
     specifier: ^1.8.5
     version: 1.8.5(react@18.2.0)
+  react-parallax:
+    specifier: ^3.5.1
+    version: 3.5.1(react-dom@18.2.0)(react@18.2.0)
   react-refractor:
     specifier: ^2.1.7
     version: 2.1.7(react@18.2.0)
@@ -5994,6 +5997,16 @@ packages:
 
   /react-lifecycles-compat@3.0.4:
     resolution: {integrity: sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==}
+    dev: false
+
+  /react-parallax@3.5.1(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-p5zPsPsqELlIOGaPS01O0IRx8R2bxcBAtrdF/RHf9nIxxk5hijbM2y89tk4rJQBcNH6ESSLe7J2NV4/ms7FLFw==}
+    peerDependencies:
+      react: 16.x.x || 17.x.x || 18.x.x
+      react-dom: 16.x.x || 17.x.x || 18.x.x
+    dependencies:
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
     dev: false
 
   /react-photo-album@2.3.0(react@18.2.0):

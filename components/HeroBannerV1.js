@@ -20,7 +20,7 @@ export default function HeroBannerV1() {
             alt="image description"
           />
         </div>
-        <div className="z-50 relative">
+        <div className="relative z-50">
           <p className="dm-sans-med mt-4 max-w-3xl text-xl text-[#ff3c00] lg:text-2xl">
             Welcome to my digital frontier! As a passionate web and
             email developer, I thrive on transforming concepts into
@@ -31,6 +31,12 @@ export default function HeroBannerV1() {
           <h2 className="brita tracking-loose impact z-50 mb-6 font-sans text-7xl font-bold uppercase tracking-tight text-[#ff3c00] sm:text-[9rem] sm:leading-none">
             LETS CREATE SOMETHING TOGETHER.
           </h2>
+          <ButtonV1 
+            href="#projects"
+            text="GET IN TOUCH"
+            color="text-white"
+            buttonText="View Projects"
+          />
         </div>
         <div className="absolute bottom-0 right-0 z-10 m-8 w-48 transform transition-all duration-500 ease-in-out hover:translate-y-3 hover:scale-105 lg:right-40 lg:top-0 lg:w-[30rem]">
           {/* <video
@@ -45,7 +51,7 @@ export default function HeroBannerV1() {
             style={{ objectFit: "cover" }}></video> */}
 
           <img
-            className="h-auto w-full transform transition-transform duration-500 ease-in-out hover:scale-110 shadow-2xl rounded-lg"
+            className="h-auto w-full transform rounded-lg shadow-2xl transition-transform duration-500 ease-in-out hover:scale-110"
             src="https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/81p7eutj/9p7/ac1/osj/Group%2030%20%281%29.png"
             alt="image description"
           />

@@ -197,15 +197,13 @@ export default function NavbarV4() {
               />
             </div>
             <div className="flex-1 text-left">
-              <ul className="flex flex-col gap-4 space-y-1 pb-4 pt-8 text-left text-sm lg:gap-12 lg:pt-12">
-                <li className="rounded-sm text-left">
-                  <Link
-                    href="/"
-                    className="w-28 rounded-md p-2 px-6 text-left sm:px-0 sm:py-6 ">
-                    <h1 class="centima text-md mx-auto text-left font-extrabold uppercase text-white">
-                      PROJECTS
-                    </h1>
-                  </Link>
+              <ul className="flex flex-col gap-8 space-y-3 pb-4 pt-8 text-left text-sm lg:gap-12 lg:pt-12">
+              <li className="rounded-sm">
+                  <a
+                    href="#projects"
+                    className="centima text-md mx-auto rounded-md py-2 font-extrabold uppercase text-white sm:px-0 sm:py-6">
+                    PROJECTS
+                  </a>
                 </li>
                 {/* <li className="rounded-sm">
                   <Link
@@ -228,7 +226,7 @@ export default function NavbarV4() {
                 <li className="rounded-sm">
                   <Link
                     href="/contact"
-                    className="w-28 rounded-md p-2 px-6 sm:px-0 sm:py-6">
+                    className="w-28 rounded-md sm:px-0 sm:py-6">
                     <h1 class="centima text-md mx-auto font-extrabold uppercase text-white">
                       MESSAGE
                     </h1>
@@ -237,14 +235,14 @@ export default function NavbarV4() {
                 <li className="rounded-sm">
                   <a
                     href="mailto:vfrodriguez@proton.me"
-                    className="centima text-md mx-auto rounded-md py-2 font-extrabold uppercase text-white sm:px-0 sm:py-6">
+                    className="centima text-md mx-auto rounded-md font-extrabold uppercase text-white sm:px-0 sm:py-6">
                     EMAIL
                   </a>
                 </li>
                 <li className="rounded-sm">
                   <a
                     href="tel:2535615378"
-                    className="centima text-md mx-auto rounded-md py-2 font-extrabold uppercase text-white sm:px-0 sm:py-6">
+                    className="centima text-md mx-auto rounded-md font-extrabold uppercase text-white sm:px-0 sm:py-6">
                     CALL
                   </a>
                 </li>

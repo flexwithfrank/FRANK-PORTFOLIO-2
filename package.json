@@ -43,6 +43,7 @@
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.49.3",
     "react-iframe": "^1.8.5",
+    "react-parallax": "^3.5.1",
     "react-refractor": "^2.1.7",
     "sanity": "^3.26.0",
     "sanity-plugin-asset-source-unsplash": "^1.1.2",

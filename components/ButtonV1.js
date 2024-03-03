@@ -10,7 +10,7 @@ export default function ButtonV1({
 }) {
   return (
     <>
-      <Link
+      <a
         href={href}
         style={{
           background: bgColor,
@@ -32,7 +32,7 @@ export default function ButtonV1({
             d="M12 4.5v15m7.5-7.5h-15"
           />
         </svg>
-      </Link>
+      </a>
     </>
   );
 }

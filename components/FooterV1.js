@@ -36,22 +36,22 @@ export default function FooterV1() {
               </div>
 
               <footer class="bg-transparent pt-10">
-                <div class="max-w-8xl align-center mx-auto flex flex-col items-center justify-between px-4 py-8 sm:px-6 lg:flex-row lg:px-8">
+                <div class="align-center mx-auto flex max-w-6xl flex-col items-center justify-between px-4 py-8 sm:px-6 lg:flex-row lg:px-16">
                   <div class="relative z-50 flex justify-center text-black">
                     <span className="centima font-extrabold uppercase leading-tight">
-                      FRANK &copy;
+                      FRANK RODRIGUEZ &copy;
                     </span>
                   </div>
 
-                  <ul class="dm-sans-med mt-12 lg:mt-0 flex flex-wrap justify-center gap-6">
+                  <ul class="dm-sans-med mt-12 flex flex-wrap justify-center gap-6 lg:mt-0">
                     <li>
-                    <span>
-                  <p class="dm-sans-med mx-auto mt-6 max-w-md text-center text-xs leading-relaxed text-black lg:mt-0">
-                    Copyright © 2024 Frank Rodriguez. All Rights Reserved.
-                  </p>
-                </span>
+                      <span>
+                        <p class="dm-sans-med mx-auto mt-6 max-w-md text-center text-xs leading-relaxed text-black lg:mt-0">
+                          Copyright © 2024 Frank Rodriguez. All
+                          Rights Reserved.
+                        </p>
+                      </span>
                     </li>
-                   
                   </ul>
 
                   <ul class="mt-12 flex justify-center gap-6 md:gap-4 lg:mt-0">
@@ -63,7 +63,7 @@ export default function FooterV1() {
                         class="text-black transition hover:text-black/75">
                         <span class="sr-only">Facebook</span>
                         <svg
-                          class="h-9 w-9"
+                          class="h-6 w-6"
                           fill="currentColor"
                           viewBox="0 0 24 24"
                           aria-hidden="true">
@@ -84,7 +84,7 @@ export default function FooterV1() {
                         class="text-black transition hover:text-black/75">
                         <span class="sr-only">Instagram</span>
                         <svg
-                          class="h-9 w-9"
+                          class="h-6 w-6"
                           fill="currentColor"
                           viewBox="0 0 24 24"
                           aria-hidden="true">
@@ -105,7 +105,7 @@ export default function FooterV1() {
                         class="text-black transition hover:text-black/75">
                         <span class="sr-only">Twitter</span>
                         <svg
-                          class="h-9 w-9"
+                          class="h-6 w-6"
                           fill="currentColor"
                           viewBox="0 0 24 24"
                           aria-hidden="true">
@@ -122,7 +122,7 @@ export default function FooterV1() {
                         class="text-black transition hover:text-black/75">
                         <span class="sr-only">GitHub</span>
                         <svg
-                          class="h-9 w-9"
+                          class="h-6 w-6"
                           fill="currentColor"
                           viewBox="0 0 24 24"
                           aria-hidden="true">
@@ -136,7 +136,6 @@ export default function FooterV1() {
                     </li>
                   </ul>
                 </div>
-               
               </footer>
               {/* end footer */}
             </div>

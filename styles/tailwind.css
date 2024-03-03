@@ -60,3 +60,7 @@
 html {
   scroll-behavior: smooth;
 }
+
+.glide__bullet--active > span {
+  background: black !important;
+}
