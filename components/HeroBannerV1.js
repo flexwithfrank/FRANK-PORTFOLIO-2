@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable @next/next/no-img-element */
 
 import ButtonV1 from "@/components/ButtonV1";
@@ -29,7 +30,7 @@ export default function HeroBannerV1() {
             to bringing your vision to life.
           </p>
           <h2 className="brita tracking-loose impact z-50 mb-6 font-sans text-7xl font-bold uppercase tracking-tight text-[#ff3c00] sm:text-[9rem] sm:leading-none">
-            LETS CREATE SOMETHING TOGETHER.
+            LET'S CREATE SOMETHING TOGETHER.
           </h2>
           <ButtonV1 
             href="#projects"
