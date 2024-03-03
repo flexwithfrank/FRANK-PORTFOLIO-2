@@ -59,7 +59,7 @@ export default function Contact({ settings }) {
             as soon as possible.
           </p>
 
-          <div className="dm-sans-bold mt-5">
+          <div className="dm-sans-med mt-5">
             <div className="mt-2 flex items-center space-x-2 text-[#ff3c00] dark:text-gray-400">
               <MapPinIcon className="h-4 w-4" />
               <span>Seattle, WA</span>
@@ -94,7 +94,7 @@ export default function Contact({ settings }) {
                 type="text"
                 placeholder="Full Name"
                 autoComplete="false"
-                className={`dm-sans-bold w-full rounded-md border bg-transparent px-4 py-3 outline-none placeholder:text-gray-800 focus:ring-4 dark:bg-gray-900 dark:text-white dark:placeholder:text-gray-200  ${
+                className={`dm-sans-med w-full rounded-md border bg-transparent px-4 py-3 outline-none placeholder:text-gray-800 focus:ring-4 dark:bg-gray-900 dark:text-white dark:placeholder:text-gray-200  ${
                   errors.name
                     ? "border-red-600 ring-red-100 focus:border-red-600 dark:ring-0"
                     : "border-gray-300 ring-gray-100 focus:border-gray-600 dark:border-gray-600 dark:ring-0 dark:focus:border-white"
@@ -121,7 +121,7 @@ export default function Contact({ settings }) {
                 placeholder="Email Address"
                 name="email"
                 autoComplete="false"
-                className={`dm-sans-bold w-full rounded-md border bg-transparent px-4 py-3 outline-none placeholder:text-gray-800 focus:ring-4 dark:bg-gray-900 dark:text-white dark:placeholder:text-gray-200  ${
+                className={`dm-sans-med w-full rounded-md border bg-transparent px-4 py-3 outline-none placeholder:text-gray-800 focus:ring-4 dark:bg-gray-900 dark:text-white dark:placeholder:text-gray-200  ${
                   errors.email
                     ? "border-red-600 ring-red-100 focus:border-red-600 dark:ring-0"
                     : "border-gray-300 ring-gray-100 focus:border-gray-600 dark:border-gray-600 dark:ring-0 dark:focus:border-white"
@@ -145,10 +145,10 @@ export default function Contact({ settings }) {
               <textarea
                 name="message"
                 placeholder="Your Message"
-                className={`h-36 w-full rounded-md border px-4 py-3 outline-none placeholder:text-gray-800   focus:ring-4 dark:bg-gray-900  dark:text-white dark:placeholder:text-gray-200  ${
+                className={`h-36 w-full rounded-md border px-4 py-3 outline-none placeholder:text-gray-800   focus:ring-4 dark:bg-gray-900  dark:text-white dark:placeholder:text-gray-200 bg-transparent dm-sans-med ${
                   errors.message
                     ? "border-red-600 ring-red-100 focus:border-red-600 dark:ring-0"
-                    : "dm-sans-bold border-gray-300 bg-transparent ring-gray-100 focus:border-gray-600 dark:border-gray-600 dark:ring-0 dark:focus:border-white"
+                    : "dm-sans-med border-gray-300 bg-transparent ring-gray-100 focus:border-gray-600 dark:border-gray-600 dark:ring-0 dark:focus:border-white"
                 }`}
                 {...register("message", {
                   required: "Enter your Message"
