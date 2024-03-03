@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@glidejs/glide':
+    specifier: ^3.6.0
+    version: 3.6.0
   '@headlessui/react':
     specifier: ^1.7.18
     version: 1.7.18(react-dom@18.2.0)(react@18.2.0)
@@ -1118,6 +1121,10 @@ packages:
 
   /@floating-ui/utils@0.2.1:
     resolution: {integrity: sha512-9TANp6GPoMtYzQdt54kfAyMmz1+osLlXdg2ENroU7zzrtflTLrrC/lgrIfaSe+Wu0b89GKccT7vxXA0MoAIO+Q==}
+    dev: false
+
+  /@glidejs/glide@3.6.0:
+    resolution: {integrity: sha512-47Aa+JmYjY4xTFpTtYCwrqirmI1arnp1UZETwtWpbTPisXUAuxrdJxKJLH8KHFWMsSrLi9+AcfyfzDIuO75rEA==}
     dev: false
 
   /@headlessui/react@1.7.18(react-dom@18.2.0)(react@18.2.0):
