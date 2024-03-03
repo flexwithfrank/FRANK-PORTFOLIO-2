@@ -1,109 +1,57 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-
+import FooterForm from "@/components/FooterForm";
+import Footer from "./footer";
+import Link from "next/link";
 export default function FooterV1() {
   return (
     <div>
       <div>
         <div>
           {/* <!-- Hero --> */}
-          <div class="relative min-h-screen overflow-hidden bg-[#ff3c00] opacity-90">
-            <div class="mx-auto max-w-[85rem] px-4 py-10 sm:px-6 sm:py-24 lg:px-8">
+          <div class="relative overflow-hidden bg-transparent opacity-90">
+            <div class="mx-auto max-w-[85rem] px-4 py-10 sm:px-6 sm:pt-24 lg:px-8">
               <div class="text-center">
-                <h1 class="impact mx-auto max-w-4xl text-5xl font-extrabold uppercase text-white dark:text-gray-200 sm:text-8xl">
-                   CONNECT WITH ME.
+                <h1 class="centima mx-auto max-w-4xl text-2xl font-extrabold uppercase tracking-tighter text-[#ff3c00] dark:text-gray-200 sm:text-2xl">
+                  CONNECT WITH ME.
                 </h1>
-
                 <div className="mx-auto max-w-md">
-                  <p class="dm-sans-regular my-20 text-white dark:text-gray-400">
-                  Stay in the loop with my latest projects! Sign up for my newsletter and never worry about receiving spam -  promise!
+                  <p class="dm-sans-med mt-10 text-black dark:text-gray-400">
+                    Stay in the loop with my latest projects! Sign up
+                    for my newsletter and never worry about receiving
+                    spam - promise!
                   </p>
                 </div>
-
                 <div class="relative mx-auto mt-12 max-w-xl sm:lg:mt-0">
                   {/* <!-- Form --> */}
-                  <form>
-                    <label
-                      for="search"
-                      class="sr-only mb-2 text-sm font-medium text-white dark:text-white">
-                      Search
-                    </label>
-                    <div class="relative flex flex-col items-center gap-8 align-middle lg:flex-row">
-                      <input
-                        type="search"
-                        id="search"
-                        class="centima block w-full border border-white bg-transparent p-4 text-sm uppercase leading-tight text-white focus:border-white focus:outline-0 focus:ring-0 focus:ring-white"
-                        placeholder="Email"
-                        required
-                      />
-                      <button
-                        type="submit"
-                        class="centima align-center text-md inline-flex w-full items-center gap-3 border-2 border-white bg-white p-4 font-extrabold uppercase leading-tight text-black hover:bg-transparent hover:text-white focus:outline-none focus:ring-4 focus:ring-white lg:w-80">
-                        Subscribe Now
-                        <span class="absolute right-3">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            strokeWidth={1.5}
-                            stroke="currentColor"
-                            className="mb-1 h-6 w-6">
-                            <path
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              d="M12 4.5v15m7.5-7.5h-15"
-                            />
-                          </svg>
-                        </span>
-                      </button>
-                    </div>
-                  </form>
+                  <label
+                    for="search"
+                    class="sr-only mb-2 text-sm font-medium text-black dark:text-black">
+                    Search
+                  </label>
+                  <div class="relative flex flex-col items-center gap-8 align-middle lg:flex-row">
+                    <FooterForm />
+                  </div>
                 </div>
               </div>
 
-              <footer class="bg-transparent pt-20">
+              <footer class="bg-transparent pt-10">
                 <div class="max-w-8xl align-center mx-auto flex flex-col items-center justify-between px-4 py-8 sm:px-6 lg:flex-row lg:px-8">
-                  <div class="flex justify-center text-white">
+                  <div class="relative z-50 flex justify-center text-black">
                     <span className="centima font-extrabold uppercase leading-tight">
-                      GLZE MEDIA &copy;
+                      FRANK &copy;
                     </span>
                   </div>
 
-                  <ul class="dm-sans-regular centima mt-12 flex flex-wrap justify-center gap-6 uppercase md:gap-8 lg:mt-0 lg:gap-12">
+                  <ul class="dm-sans-med mt-12 lg:mt-0 flex flex-wrap justify-center gap-6">
                     <li>
-                      <a
-                        class="text-white transition hover:text-white/75"
-                        href="#">
-                        {" "}
-                        Project{" "}
-                      </a>
+                    <span>
+                  <p class="dm-sans-med mx-auto mt-6 max-w-md text-center text-xs leading-relaxed text-black lg:mt-0">
+                    Copyright © 2024 Frank Rodriguez. All Rights Reserved.
+                  </p>
+                </span>
                     </li>
-
-                    <li>
-                      <a
-                        class="text-white transition hover:text-white/75"
-                        href="#">
-                        {" "}
-                        Blog{" "}
-                      </a>
-                    </li>
-
-                    <li>
-                      <a
-                        class="text-white transition hover:text-white/75"
-                        href="#">
-                        {" "}
-                        Hobbies{" "}
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        class="text-white transition hover:text-white/75"
-                        href="#">
-                        {" "}
-                        Contact{" "}
-                      </a>
-                    </li>
+                   
                   </ul>
 
                   <ul class="mt-12 flex justify-center gap-6 md:gap-4 lg:mt-0">
@@ -112,7 +60,7 @@ export default function FooterV1() {
                         href="#"
                         rel="noreferrer"
                         target="_blank"
-                        class="text-white transition hover:text-white/75">
+                        class="text-black transition hover:text-black/75">
                         <span class="sr-only">Facebook</span>
                         <svg
                           class="h-9 w-9"
@@ -133,7 +81,7 @@ export default function FooterV1() {
                         href="#"
                         rel="noreferrer"
                         target="_blank"
-                        class="text-white transition hover:text-white/75">
+                        class="text-black transition hover:text-black/75">
                         <span class="sr-only">Instagram</span>
                         <svg
                           class="h-9 w-9"
@@ -154,7 +102,7 @@ export default function FooterV1() {
                         href="#"
                         rel="noreferrer"
                         target="_blank"
-                        class="text-white transition hover:text-white/75">
+                        class="text-black transition hover:text-black/75">
                         <span class="sr-only">Twitter</span>
                         <svg
                           class="h-9 w-9"
@@ -171,7 +119,7 @@ export default function FooterV1() {
                         href="#"
                         rel="noreferrer"
                         target="_blank"
-                        class="text-white transition hover:text-white/75">
+                        class="text-black transition hover:text-black/75">
                         <span class="sr-only">GitHub</span>
                         <svg
                           class="h-9 w-9"
@@ -188,18 +136,14 @@ export default function FooterV1() {
                     </li>
                   </ul>
                 </div>
-                <span>
-                  <p class="dm-sans-regular mx-auto mt-6 max-w-md text-center text-xs leading-relaxed text-gray-100 lg:mt-0">
-                    Copyright © 2024 GLAZER. All Rights Reserved.
-                  </p>
-                </span>
+               
               </footer>
               {/* end footer */}
             </div>
 
             {/* left car */}
             <div
-              class="absolute start-0 top-80 z-50 hidden -translate-x-40 -translate-y-2/4 transform transition-all ease-in-out hover:-translate-x-[50rem] hover:duration-500 md:block lg:-translate-x-[55rem]"
+              class="absolute start-0 top-80 z-50 hidden -translate-x-40 -translate-y-2/4 transform transition-all ease-in-out hover:-translate-x-[50rem] hover:duration-500 md:block lg:-translate-x-[60rem]"
               aria-hidden="true">
               <img
                 class="duration-600 h-auto w-9/12 max-w-full"

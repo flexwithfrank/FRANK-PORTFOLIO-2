@@ -1,8 +1,8 @@
 import React from "react";
 import Link from "next/link";
-import PostList from "@/components/postlist";
+import Weather from "@/components/weather";
 
-export default function NavbarV4({ posts }) {
+export default function NavbarV4() {
   return (
     <div>
       <header class="z-50 flex w-full flex-wrap border-b border-gray-200 bg-[#f4f0e6] py-3 text-sm dark:bg-gray-800 sm:flex-nowrap sm:justify-start sm:py-0">
@@ -10,15 +10,16 @@ export default function NavbarV4({ posts }) {
           class="relative mx-auto flex w-full max-w-[85rem] basis-full flex-wrap items-center px-4 sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8"
           aria-label="Global">
           <div class="flex items-center justify-between">
-            <Link href="/" className="w-60 p-2">
-              <h1 class="centima mx-auto max-w-4xl text-3xl font-extrabold uppercase text-gray-800">
-                FRANK<span class="text-xs text-black">&copy;</span>
+            <Link href="/" className="p-2 lg:w-60">
+              <h1 class="centima mx-auto max-w-4xl text-3xl font-extrabold uppercase text-[#ff3c00]">
+                FRANK
+                <span class="text-xs text-[#ff3c00]">&copy;</span>
               </h1>
             </Link>
           </div>
 
           <div class="ms-auto flex items-center sm:order-3 sm:ms-0">
-            <div class="sm:hidden">
+            <div class="hidden">
               <button
                 type="button"
                 class="centima inline-flex items-center justify-center gap-2 rounded-lg border bg-[#f4f0e6] p-2 align-middle text-xs font-medium text-gray-700 shadow-sm transition-all hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-gray-600 focus:ring-offset-2 focus:ring-offset-white dark:bg-gray-800 dark:text-gray-400 dark:hover:bg-slate-800 dark:hover:text-white dark:focus:ring-offset-gray-800"
@@ -44,9 +45,9 @@ export default function NavbarV4({ posts }) {
               </button>
             </div>
 
-            <div class="flex flex-row justify-between gap-6 ps-3 sm:ms-6 sm:border-s sm:border-gray-300 sm:ps-6">
+            <div class="align-center flex flex-row items-center justify-between gap-6 ps-3 sm:ms-6 sm:border-s sm:border-gray-300 sm:ps-6">
               {/* search icon */}
-              <button
+              {/* <button
                 type="button"
                 class="flex size-9 items-center justify-center rounded-lg text-sm font-semibold text-gray-800 hover:bg-gray-100 disabled:pointer-events-none disabled:opacity-50 dark:text-white dark:hover:bg-gray-700 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
                 data-hs-overlay="#navbar-secondary-content"
@@ -65,8 +66,9 @@ export default function NavbarV4({ posts }) {
                     d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
                   />
                 </svg>
-              </button>
+              </button> */}
               {/* search icon */}
+              <Weather />
               <button
                 type="button"
                 class="flex size-9 items-center justify-center rounded-lg text-sm font-semibold text-gray-800 hover:bg-gray-100 disabled:pointer-events-none disabled:opacity-50 dark:text-white dark:hover:bg-gray-700 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
@@ -112,11 +114,13 @@ export default function NavbarV4({ posts }) {
             tabindex="-1"
             data-hs-overlay-close-on-resize>
             <div class="mt-5 flex flex-col gap-x-0 gap-y-4 sm:mt-0 sm:flex-row sm:items-center sm:justify-end sm:gap-x-7 sm:gap-y-0 sm:ps-7">
-              <Link href="/" className="w-28 px-6 sm:px-0 sm:py-6">
+              <a
+                href="#projects"
+                className="w-28 px-6 sm:px-0 sm:py-6">
                 <h1 class="centima text-md mx-auto font-extrabold uppercase text-gray-800">
                   PROJECTS
                 </h1>
-              </Link>
+              </a>
               {/* <Link href="/" className="w-28 px-6 sm:px-0 sm:py-6">
                 <h1 class="centima text-md mx-auto font-extrabold uppercase text-gray-800">
                   BLOG (COMING SOON)
@@ -131,7 +135,7 @@ export default function NavbarV4({ posts }) {
                 href="/contact"
                 className="w-28 px-6 sm:px-0 sm:py-6">
                 <h1 class="centima text-md mx-auto font-extrabold uppercase text-gray-800">
-                  CONTACT
+                  MESSAGE
                 </h1>
               </Link>
             </div>
@@ -226,7 +230,7 @@ export default function NavbarV4({ posts }) {
                     href="/contact"
                     className="w-28 rounded-md p-2 px-6 sm:px-0 sm:py-6">
                     <h1 class="centima text-md mx-auto font-extrabold uppercase text-white">
-                      CONTACT
+                      MESSAGE
                     </h1>
                   </Link>
                 </li>
@@ -234,17 +238,15 @@ export default function NavbarV4({ posts }) {
                   <a
                     href="mailto:vfrodriguez@proton.me"
                     className="centima text-md mx-auto rounded-md py-2 font-extrabold uppercase text-white sm:px-0 sm:py-6">
-                    VFRODRIGUEZ@PROTON.ME
+                    EMAIL
                   </a>
                 </li>
                 <li className="rounded-sm">
-                  <Link
-                    href="/"
-                    className="w-28 rounded-md p-2 px-6 sm:px-0 sm:py-6">
-                    <h1 class="centima text-md mx-auto font-extrabold uppercase text-white">
-                      SEATTLE, WA
-                    </h1>
-                  </Link>
+                  <a
+                    href="tel:2535615378"
+                    className="centima text-md mx-auto rounded-md py-2 font-extrabold uppercase text-white sm:px-0 sm:py-6">
+                    CALL
+                  </a>
                 </li>
               </ul>
             </div>

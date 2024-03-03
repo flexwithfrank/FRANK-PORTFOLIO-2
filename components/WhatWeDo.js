@@ -11,21 +11,21 @@ export default function WhatWeDo() {
               <div className="col-span-4">
                 <img
                   className="rounded-xl"
-                  src="https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/81p7eutj/pjs/ig1/drg/Screenshot%202024-03-02%20at%205.01.26%20PM.png"
+                  src="https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/81p7eutj/w5d/r7l/vw8/Group%2034%20%281%29.png"
                   alt="Image Description"
                 />
               </div>
               <div className="col-span-3">
                 <img
                   className="rounded-xl"
-                  src="https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/81p7eutj/pco/210/tl4/screencapture-view-marketing-fiskerinc-2024-03-02-16_56_08%201%20%281%29.png"
+                  src="https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/81p7eutj/j9u/rcd/42s/Group%2030%20%282%29%20%281%29.png"
                   alt="Image Description"
                 />
               </div>
               <div className="col-span-5">
                 <img
                   className="rounded-xl"
-                  src="https://images.unsplash.com/photo-1600194992440-50b26e0a0309?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80"
+                  src="https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/81p7eutj/tbm/kfy/px3/Group%2032%20%281%29.png"
                   alt="Image Description"
                 />
               </div>
@@ -37,13 +37,15 @@ export default function WhatWeDo() {
                 <h2 className="centima text-3xl font-bold uppercase text-[#ff3c00] dark:text-gray-200 lg:text-4xl">
                   WHAT I DO
                 </h2>
-                <p className="text-[#ff3c00] dm-sans-med">
+                <p className="dm-sans-med text-[#ff3c00]">
                   Think of me as your creative genie, bringing your
                   ideas to life in the most captivating, seamless, and
                   fun ways possible. We will make magic happen.
                 </p>
               </div>
-              <ul role="list" className="space-y-2 sm:space-y-4 dm-sans-bold">
+              <ul
+                role="list"
+                className="dm-sans-bold space-y-2 sm:space-y-4">
                 <li className="flex space-x-3">
                   <span className="mt-0.5 flex size-5 items-center justify-center rounded-full bg-gray-50 text-[#ff3c00] dark:bg-gray-800/30 ">
                     <svg
@@ -62,7 +64,7 @@ export default function WhatWeDo() {
                   </span>
                   <span className="text-sm text-[#ff3c00] sm:text-base">
                     <span className="font-bold">Web Design</span> –
-                    <span className="dm-sans-med">Development</span>
+                    <span className="dm-sans-med"> Development</span>
                   </span>
                 </li>
                 <li className="flex space-x-3">
@@ -85,7 +87,7 @@ export default function WhatWeDo() {
                     <span className="font-bold">
                       Email Development
                     </span>{" "}
-                    –  <span className="dm-sans-med">Marketing</span>
+                    – <span className="dm-sans-med">Marketing</span>
                   </span>
                 </li>
                 <li className="flex space-x-3">
@@ -108,7 +110,7 @@ export default function WhatWeDo() {
                     <span className="font-bold">
                       Growth Marketing
                     </span>{" "}
-                    –   <span className="dm-sans-med">Generation</span>
+                    – <span className="dm-sans-med">Generation</span>
                   </span>
                 </li>
                 <li className="flex space-x-3">
@@ -129,7 +131,8 @@ export default function WhatWeDo() {
                   </span>
                   <span className="text-sm text-[#ff3c00] sm:text-base">
                     <span className="font-bold">
-                      Interactive Experiences  –  <span className="dm-sans-med">Web</span>
+                      Interactive Experiences –{" "}
+                      <span className="dm-sans-med">Web</span>
                     </span>
                   </span>
                 </li>

@@ -56,3 +56,7 @@
 .impact{
   font-family: Impact, sans-serif !important;
 }
+
+html {
+  scroll-behavior: smooth;
+}

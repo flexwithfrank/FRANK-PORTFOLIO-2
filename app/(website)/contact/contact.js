@@ -24,13 +24,13 @@ export default function Contact({ settings }) {
   const [isSuccess, setIsSuccess] = useState(false);
   const [message, setMessage] = useState(false);
   // Please update the Access Key in the Sanity CMS - Site Congig Page
-  const apiKey = settings?.w3ckey || "YOUR_ACCESS_KEY_HERE";
+  const apiKey = settings?.w3ckey || "2f0b5c82-98ca-40c4-968e-4ac84edb4438";
 
   const { submit: onSubmit } = useWeb3Forms({
     access_key: apiKey,
     settings: {
-      from_name: "Stablo Template",
-      subject: "New Contact Message from Stablo Website"
+      from_name: "Frank Portfolio",
+      subject: "New Contact Message from Frank Portfolio"
     },
     onSuccess: (msg, data) => {
       setIsSuccess(true);
@@ -199,6 +199,8 @@ export default function Contact({ settings }) {
               {message || "Something went wrong. Please try later."}
             </div>
           )}
+
+          
         </div>
       </div>
     </Container>
