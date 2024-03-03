@@ -35,7 +35,7 @@ export default function Weather() {
 
     return (
         <div className="centima font-extrabold uppercase tracking-tighter text-[#ff3c00]">
-            {temperature ? `Seattle, USA: ${temperature}°F` : "Loading..."}
+            {temperature ? `Seattle, USA: ${temperature}°F` : "Seattle..."}
             { ' ' }
             {temperature &&
                 (temperature > 60 ? (
