@@ -6,7 +6,7 @@ export default function WhatWeDoV2() {
   return (
     <>
       <div class="mx-auto max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14">
-        <div className="mx-auto flex max-w-xl flex-col pb-12">
+        <div className="mx-auto flex max-w-xl flex-col pb-12 text-left lg:text-center">
           <h2 className="centima text-3xl font-extrabold uppercase text-[#ff3c00] dark:text-gray-200 lg:text-4xl ">
             WHAT I DO
           </h2>
@@ -40,10 +40,10 @@ export default function WhatWeDoV2() {
             </svg>
 
             <span class="mt-5">
-              <span class="centima block font-extrabold uppercase text-[#ff3c00] hs-tab-active:text-[#ff3c00] dark:text-gray-200 dark:hs-tab-active:text-blue-500">
+              <span class="centima block font-extrabold uppercase text-gray-800 hs-tab-active:text-[#ff3c00] dark:text-gray-200 dark:hs-tab-active:text-blue-500">
                 Growth Generation
               </span>
-              <span class="dm-sans-med mt-2 hidden text-sm text-gray-800 dark:text-gray-200 lg:block">
+              <span class="dm-sans-med mt-2 hidden text-sm text-gray-800 hs-tab-active:text-[#ff3c00] dark:text-gray-200 lg:block">
                 I craft strategies that drive organic growth, boost
                 brand visibility, and maximize ROI.
               </span>
@@ -70,10 +70,10 @@ export default function WhatWeDoV2() {
             </svg>
 
             <span class="mt-5">
-              <span class="centima block font-extrabold uppercase text-[#ff3c00] hs-tab-active:text-[#ff3c00] dark:text-gray-200 dark:hs-tab-active:text-blue-500">
+              <span class="centima block font-extrabold uppercase text-gray-800 hs-tab-active:text-[#ff3c00] dark:text-gray-200 dark:hs-tab-active:text-blue-500">
                 Web & Email Development
               </span>
-              <span class="dm-sans-med mt-2 hidden text-sm text-gray-800 dark:text-gray-200 lg:block">
+              <span class="dm-sans-med mt-2 hidden text-sm text-gray-800 hs-tab-active:text-[#ff3c00] dark:text-gray-200 lg:block">
                 With my expertise, your digital platforms will be
                 dynamic, user-friendly, and visually stunning.
               </span>
@@ -100,10 +100,10 @@ export default function WhatWeDoV2() {
             </svg>
 
             <span class="mt-5">
-              <span class="centima block font-extrabold uppercase text-[#ff3c00] hs-tab-active:text-[#ff3c00] dark:text-gray-200 dark:hs-tab-active:text-blue-500">
+              <span class="centima block font-extrabold uppercase text-gray-800 hs-tab-active:text-[#ff3c00] dark:text-gray-200 dark:hs-tab-active:text-blue-500">
                 Interactive Content
               </span>
-              <span class="dm-sans-med mt-2 hidden text-sm text-gray-800 dark:text-gray-200 lg:block">
+              <span class="dm-sans-med mt-2 hidden text-sm text-gray-800 hs-tab-active:text-[#ff3c00] dark:text-gray-200 lg:block">
                 I create engaging, immersive content that captivates
                 and educates, leaving a lasting impression on your
                 visitors.
@@ -142,7 +142,7 @@ export default function WhatWeDoV2() {
 
                 <div class="rounded-b-lg bg-gray-800">
                   <img
-                    class="h-auto max-w-full rounded-b-lg w-full"
+                    class="h-auto w-full max-w-full rounded-b-lg"
                     src="https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/81p7eutj/8v7/rip/94j/Untitled%20design.gif"
                     alt="Image Description"
                   />
@@ -181,7 +181,7 @@ export default function WhatWeDoV2() {
 
                 <div class="rounded-b-lg bg-gray-800">
                   <img
-                    class="h-auto max-w-full rounded-b-lg w-full"
+                    class="h-auto w-full max-w-full rounded-b-lg"
                     src="https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/81p7eutj/l1k/bzx/gr5/Copy%20of%20GIF%20FOR%20PORTFOLIO.gif"
                     alt="Image Description"
                   />
@@ -220,7 +220,7 @@ export default function WhatWeDoV2() {
 
                 <div class="rounded-b-lg bg-gray-800">
                   <img
-                    class="h-auto max-w-full rounded-b-lg w-full"
+                    class="h-auto w-full max-w-full rounded-b-lg"
                     src="https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/81p7eutj/af5/z8b/6a3/Untitled%20design%20%282%29_1.gif"
                     alt="Image Description"
                   />
