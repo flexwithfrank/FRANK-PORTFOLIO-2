@@ -51,6 +51,21 @@ export default function CarouselV1() {
                   className="m-auto max-h-full w-full max-w-full"
                   alt="vehicle-configurator"
                 />
+                <span className="absolute bottom-0 right-0 m-3 rounded-full bg-white p-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth={1.5}
+                    stroke="currentColor"
+                    className="h-6 w-6">
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M12 4.5v15m7.5-7.5h-15"
+                    />
+                  </svg>
+                </span>
               </a>
             </li>
             <li>
@@ -63,6 +78,21 @@ export default function CarouselV1() {
                   className="m-auto max-h-full w-full max-w-full"
                   alt="vdp-page"
                 />
+                <span className="absolute bottom-0 right-0 m-3 rounded-full bg-white p-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth={1.5}
+                    stroke="currentColor"
+                    className="h-6 w-6">
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M12 4.5v15m7.5-7.5h-15"
+                    />
+                  </svg>
+                </span>
               </a>
             </li>
             <li>
@@ -74,6 +104,21 @@ export default function CarouselV1() {
                   src="https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/81p7eutj/08n/nsp/6ax/Group%2025%20%282%29%20%281%29.png"
                   className="m-auto max-h-full w-full max-w-full"
                 />
+                <span className="absolute bottom-0 right-0 m-3 rounded-full bg-white p-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth={1.5}
+                    stroke="currentColor"
+                    className="h-6 w-6">
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M12 4.5v15m7.5-7.5h-15"
+                    />
+                  </svg>
+                </span>
               </a>
             </li>
             <li>
@@ -85,6 +130,21 @@ export default function CarouselV1() {
                   src="https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/81p7eutj/6qr/dp4/cte/Group%2027%20%281%29.png"
                   className="m-auto max-h-full w-full max-w-full"
                 />
+                <span className="absolute bottom-0 right-0 m-3 rounded-full bg-white p-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth={1.5}
+                    stroke="currentColor"
+                    className="h-6 w-6">
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M12 4.5v15m7.5-7.5h-15"
+                    />
+                  </svg>
+                </span>
               </a>
             </li>
           </ul>
