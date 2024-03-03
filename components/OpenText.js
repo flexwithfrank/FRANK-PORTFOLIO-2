@@ -1,12 +1,16 @@
-export default function OpenText({ h1, p1 }) {
+export default function OpenText({ h1, p1, color }) {
   return (
-    <div className="text-center">
-      <h1 class="impact mx-auto max-w-4xl text-5xl font-extrabold uppercase text-white dark:text-gray-200 sm:text-8xl">
+    <div className="px-8 text-left lg:max-w-7xl lg:px-32">
+      <h1
+        style={{ color: color }}
+        class="impact mx-auto max-w-4xl text-5xl font-extrabold uppercase  sm:text-8xl">
         {h1}
       </h1>
 
-      <div className="mx-auto max-w-md">
-        <p class="dm-sans-bold my-20 text-black dark:text-gray-400 lg:text-2xl text-xl">
+      <div className="mx-auto">
+        <p
+          style={{ color: color }}
+          class="centima my-20 max-w-sm text-left text-xl font-extrabold uppercase lg:text-2xl">
           {p1}
         </p>
       </div>

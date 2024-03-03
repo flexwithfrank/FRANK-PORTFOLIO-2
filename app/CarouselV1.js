@@ -42,28 +42,50 @@ export default function CarouselV1() {
         <div className="overflow-hidden" data-glide-el="track">
           <ul className="whitespace-no-wrap flex-no-wrap [backface-visibility: hidden] [transform-style: preserve-3d] [touch-action: pan-Y] [will-change: transform] relative flex w-full overflow-hidden p-0">
             <li className="relative">
-              <img
-                src="https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/81p7eutj/ai4/10p/jv9/Group%2028%20%281%29.png"
-                className="m-auto max-h-full w-full max-w-full"
-              />
+              <a
+                href="https://cloud.marketing.fiskerinc.com/dealer-x"
+                target="_blank"
+                rel="noreferrer">
+                <img
+                  src="https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/81p7eutj/ai4/10p/jv9/Group%2028%20%281%29.png"
+                  className="m-auto max-h-full w-full max-w-full"
+                  alt="vehicle-configurator"
+                />
+              </a>
             </li>
             <li>
-              <img
-                src="https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/81p7eutj/m4g/uq9/9pp/Group%2026%20%281%29.png"
-                className="m-auto max-h-full w-full max-w-full"
-              />
+              <a
+                href="https://mczvd2z6j1-c05qk6ttb60b92894.pub.sfmc-content.com/43r4cjua2xg"
+                target="_blank"
+                rel="noreferrer">
+                <img
+                  src="https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/81p7eutj/m4g/uq9/9pp/Group%2026%20%281%29.png"
+                  className="m-auto max-h-full w-full max-w-full"
+                  alt="vdp-page"
+                />
+              </a>
             </li>
             <li>
-              <img
-                src="https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/81p7eutj/08n/nsp/6ax/Group%2025%20%282%29%20%281%29.png"
-                className="m-auto max-h-full w-full max-w-full"
-              />
+              <a
+                href="https://mczvd2z6j1-c05qk6ttb60b92894.pub.sfmc-content.com/m4b5yovrlom"
+                target="_blank"
+                rel="noreferrer">
+                <img
+                  src="https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/81p7eutj/08n/nsp/6ax/Group%2025%20%282%29%20%281%29.png"
+                  className="m-auto max-h-full w-full max-w-full"
+                />
+              </a>
             </li>
             <li>
-              <img
-                src="https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/81p7eutj/6qr/dp4/cte/Group%2027%20%281%29.png"
-                className="m-auto max-h-full w-full max-w-full"
-              />
+              <a
+                href="https://mczvd2z6j1-c05qk6ttb60b92894.pub.sfmc-content.com/xzfnih1dfmy?qs=121b46067820d2cd95ca9230b009274ab8626c237e1cf7bdc2c3c49d6ed49ba5a62e1fe21f7b5e7884bd8e99b9bd01cd717b907ae99599b34b12f51c35ded00dd90aa030277b953b50efd8ebfb926eda9734e08a92adfddabc7a93ec124c4a25f464fe4824a0051752be440ca08e7cb23a3dd7644c21df43e8af58425f84cb9100bb17922af951e9afc5385cb477890601be1ba3ea273f85"
+                target="_blank"
+                rel="noreferrer">
+                <img
+                  src="https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/81p7eutj/6qr/dp4/cte/Group%2027%20%281%29.png"
+                  className="m-auto max-h-full w-full max-w-full"
+                />
+              </a>
             </li>
           </ul>
         </div>

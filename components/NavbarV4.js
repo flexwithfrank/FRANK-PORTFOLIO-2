@@ -233,7 +233,7 @@ export default function NavbarV4({ posts }) {
                 <li className="rounded-sm">
                   <a
                     href="mailto:vfrodriguez@proton.me"
-                    className="centima text-md mx-auto w-28 rounded-md p-2 px-6 font-extrabold uppercase text-white sm:px-0 sm:py-6">
+                    className="centima text-md mx-auto rounded-md py-2 font-extrabold uppercase text-white sm:px-0 sm:py-6">
                     VFRODRIGUEZ@PROTON.ME
                   </a>
                 </li>
@@ -250,25 +250,6 @@ export default function NavbarV4({ posts }) {
             </div>
           </div>
         </div>
-        <>
-          {posts && (
-            <div className="mx-auto w-full px-8 lg:max-w-7xl lg:px-0">
-              <div className="grid h-full gap-10 py-10 md:grid-cols-12 lg:gap-10">
-                <div className="h-full lg:col-span-8">
-                  {posts.slice(1, 2).map(post => (
-                    <PostList
-                      key={post._id}
-                      post={post}
-                      aspect="landscape"
-                      preloadImage={true}
-                      pathPrefix={"sidebar"}
-                    />
-                  ))}
-                </div>
-              </div>
-            </div>
-          )}
-        </>
       </div>
     </div>
   );
