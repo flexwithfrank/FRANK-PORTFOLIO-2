@@ -205,6 +205,13 @@ export default function NavbarV4() {
                     PROJECTS
                   </a>
                 </li>
+                <li className="rounded-sm">
+                  <a
+                    href="https://vfr-porfolio.vercel.app/contact"
+                    className="centima text-md mx-auto rounded-md py-2 font-extrabold uppercase text-white sm:px-0 sm:py-6">
+                    MESSAGE
+                  </a>
+                </li>
                 {/* <li className="rounded-sm">
                   <Link
                     href="/"
@@ -223,15 +230,6 @@ export default function NavbarV4() {
                     </h1>
                   </Link>
                 </li> */}
-                <li className="rounded-sm">
-                  <Link
-                    href="/contact"
-                    className="w-28 rounded-md sm:px-0 sm:py-6">
-                    <h1 class="centima text-md mx-auto font-extrabold uppercase text-white">
-                      MESSAGE
-                    </h1>
-                  </Link>
-                </li>
                 <li className="rounded-sm">
                   <a
                     href="mailto:vfrodriguez@proton.me"
