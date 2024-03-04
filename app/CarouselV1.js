@@ -42,7 +42,7 @@ export default function CarouselV1() {
           <ul className="whitespace-no-wrap flex-no-wrap [backface-visibility: hidden] [transform-style: preserve-3d] [touch-action: pan-Y] [will-change: transform] relative flex w-full overflow-hidden p-0">
             <li className="relative">
               <div className="absolute bottom-0 left-0 mx-5 my-3">
-                <p class="centima max-w-sm text-left text-sm font-extrabold uppercase text-black">
+                <p class="centima max-w-sm text-left text-sm font-extrabold uppercase text-white">
                   VEHICLE CONFIGURATOR
                 </p>
               </div>
@@ -51,10 +51,17 @@ export default function CarouselV1() {
                 target="_blank"
                 rel="noreferrer">
                 <img
-                  src="https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/81p7eutj/ai4/10p/jv9/Group%2028%20%281%29.png"
+                  src="https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/81p7eutj/ts4/np6/8fy/Group%2025%20%284%29.png"
                   className="m-auto max-h-full w-full max-w-full"
                   alt="vehicle-configurator"
                 />
+                <div className="absolute inset-0 flex items-center justify-center px-6 lg:px-12">
+                  <img
+                    src="https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/81p7eutj/af5/z8b/6a3/Untitled%20design%20%282%29_1.gif" // Replace
+                    alt="Description"
+                    className="object-contain"
+                  />
+                </div>
                 <span className="absolute bottom-0 right-0 mx-5 my-3 rounded-full bg-white p-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -74,7 +81,7 @@ export default function CarouselV1() {
             </li>
             <li className="relative">
               <div className="absolute bottom-0 left-0 mx-5 my-3">
-                <p class="centima max-w-sm text-left text-sm font-extrabold uppercase text-black">
+                <p class="centima max-w-sm text-left text-sm font-extrabold uppercase text-white">
                   PRODUCT DETAILS
                 </p>
               </div>
@@ -83,10 +90,17 @@ export default function CarouselV1() {
                 target="_blank"
                 rel="noreferrer">
                 <img
-                  src="https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/81p7eutj/m4g/uq9/9pp/Group%2026%20%281%29.png"
+                  src="https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/81p7eutj/etj/6a4/x0h/Screenshot%202024-03-02%20at%2012.29%201.png"
                   className="m-auto max-h-full w-full max-w-full"
                   alt="vdp-page"
                 />
+                <div className="absolute inset-0 flex items-center justify-center px-6 lg:px-12">
+                  <img
+                    src="https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/81p7eutj/96c/xfc/ng5/Untitled%20design%20%285%29%20%281%29.png" // Replace
+                    alt="Description"
+                    className="h-full py-10 lg:h-3/4"
+                  />
+                </div>
                 <span className="absolute bottom-0 right-0 mx-5 my-3 rounded-full bg-white p-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -115,9 +129,16 @@ export default function CarouselV1() {
                 target="_blank"
                 rel="noreferrer">
                 <img
-                  src="https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/81p7eutj/08n/nsp/6ax/Group%2025%20%282%29%20%281%29.png"
+                  src="https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/81p7eutj/r0r/k02/zl8/Group%2026%20%283%29.png"
                   className="m-auto max-h-full w-full max-w-full"
                 />
+                <div className="absolute inset-0 flex items-center justify-center px-6 lg:px-12">
+                  <img
+                    src="https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/81p7eutj/jxu/vfo/dgr/vid.gif" // Replace
+                    alt="Description"
+                    className="object-contain"
+                  />
+                </div>
                 <span className="absolute bottom-0 right-0 mx-5 my-3 rounded-full bg-white p-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -137,7 +158,7 @@ export default function CarouselV1() {
             </li>
             <li className="relative">
               <div className="absolute bottom-0 left-0 mx-5 my-3">
-                <p class="centima max-w-sm text-left text-sm font-extrabold uppercase text-white">
+                <p class="centima max-w-sm text-left text-sm font-extrabold uppercase text-black">
                   REWARDS PROGRAM
                 </p>
               </div>
@@ -146,10 +167,17 @@ export default function CarouselV1() {
                 target="_blank"
                 rel="noreferrer">
                 <img
-                  src="https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/81p7eutj/6qr/dp4/cte/Group%2027%20%281%29.png"
+                  src="https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/81p7eutj/q40/mny/ae3/Group%2028%20%283%29.png"
                   alt="rewards"
                   className="m-auto max-h-full w-full max-w-full"
                 />
+                <div className="absolute inset-0 flex items-center justify-center px-6 lg:px-12">
+                  <img
+                    src="https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/81p7eutj/144/oku/c1h/vid%20%281%29.gif" // Replace
+                    alt="Description"
+                    className="object-contain"
+                  />
+                </div>
                 <span className="absolute bottom-0 right-0 mx-5 my-3 rounded-full bg-white p-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -170,7 +198,7 @@ export default function CarouselV1() {
             <li className="relative">
               <div className="absolute bottom-0 left-0 mx-5 my-3">
                 <p class="centima max-w-sm text-left text-sm font-extrabold uppercase text-white">
-                  COMMERCE SITES
+                  COMMERCE PLATFORM
                 </p>
               </div>
               <a
@@ -178,10 +206,17 @@ export default function CarouselV1() {
                 target="_blank"
                 rel="noreferrer">
                 <img
-                  src="https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/81p7eutj/4ug/yl8/64p/Group%2035%20%282%29%20%281%29.png"
+                  src="https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/81p7eutj/plu/iwo/ony/Group%2027%20%283%29.png"
                   alt="rewards"
                   className="m-auto max-h-full w-full max-w-full"
                 />
+                <div className="absolute inset-0 flex items-center justify-center px-6 lg:px-12">
+                  <img
+                    src="https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/81p7eutj/r2c/e7p/y9o/vid%20%282%29.gif" // Replace
+                    alt="Description"
+                    className="object-contain"
+                  />
+                </div>
                 <span className="absolute bottom-0 right-0 mx-5 my-3 rounded-full bg-white p-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
