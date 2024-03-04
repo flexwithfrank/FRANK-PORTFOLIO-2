@@ -1,7 +1,8 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable @next/next/no-img-element */
-
+"use client";
 import ButtonV1 from "@/components/ButtonV1";
+import { Parallax, Background } from "react-parallax";
 
 const styles = {
   justifyContent: "center",
@@ -21,6 +22,7 @@ export default function HeroBannerV1() {
             alt="image description"
           />
         </div>
+
         <div className="relative z-50">
           <p className="dm-sans-med mt-4 max-w-3xl text-xl text-[#ff3c00] lg:text-2xl">
             Welcome to my digital frontier! As a passionate web and
@@ -32,7 +34,7 @@ export default function HeroBannerV1() {
           <h2 className="brita tracking-loose impact z-50 mb-6 font-sans text-7xl font-bold uppercase tracking-tight text-[#ff3c00] sm:text-[9rem] sm:leading-none">
             LET'S CREATE SOMETHING TOGETHER.
           </h2>
-          <ButtonV1 
+          <ButtonV1
             href="#projects"
             text="GET IN TOUCH"
             color="text-white"
@@ -52,10 +54,18 @@ export default function HeroBannerV1() {
             style={{ objectFit: "cover" }}></video> */}
 
           <img
-            className="h-auto w-full transform rounded-lg shadow-2xl transition-transform duration-500 ease-in-out hover:scale-110"
+            className="h-auto w-full transform rounded-lg shadow-2xl transition-transform duration-500 ease-in-out hover:scale-110 lg:hidden"
             src="https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/81p7eutj/9p7/ac1/osj/Group%2030%20%281%29.png"
             alt="image description"
           />
+          <Parallax
+            className="hidden lg:block"
+            blur={0}
+            bgImage="https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/81p7eutj/9p7/ac1/osj/Group%2030%20%281%29.png"
+            bgImageAlt="the cat"
+            strength={200}>
+            <div style={{ height: "550px" }} />
+          </Parallax>
         </div>
       </div>
     </div>
