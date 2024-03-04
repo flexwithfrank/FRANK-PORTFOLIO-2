@@ -164,7 +164,7 @@ export default function Contact({ settings }) {
 
             <button
               type="submit"
-              className="w-full rounded-md bg-gray-900 px-7 py-4 font-semibold text-white transition-colors hover:bg-gray-800 focus:outline-none focus:ring focus:ring-gray-200 focus:ring-offset-2 dark:bg-white dark:text-black ">
+              className="w-full rounded-md bg-gray-900 px-7 py-4 font-semibold text-white transition-colors hover:bg-gray-800 focus:outline-none focus:ring focus:ring-gray-200 focus:ring-offset-2 dark:bg-white dark:text-black centima uppercase">
               {isSubmitting ? (
                 <svg
                   className="mx-auto h-5 w-5 animate-spin text-white dark:text-black"
