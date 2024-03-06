@@ -31,8 +31,8 @@ export default function HeroBannerV1() {
             and a commitment to seamless functionality, I am dedicated
             to bringing your vision to life.
           </p>
-          <h2 className="brita tracking-loose impact z-50 mb-6 font-sans text-7xl font-bold uppercase tracking-tight text-[#ff3c00] sm:text-[9rem] sm:leading-none">
-            LET'S CREATE SOMETHING TOGETHER.
+          <h2 className="brita tracking-loose impact z-50 mb-6 font-sans text-8xl font-bold uppercase tracking-tight text-[#ff3c00] sm:text-[12rem] sm:leading-none leading-snug">
+            LET'S CREATE.
           </h2>
           <ButtonV1
             href="#projects"
