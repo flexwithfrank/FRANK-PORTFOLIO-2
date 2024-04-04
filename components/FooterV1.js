@@ -57,7 +57,7 @@ export default function FooterV1() {
                   <ul class="mt-12 flex justify-center gap-6 md:gap-4 lg:mt-0">
                     <li>
                       <a
-                        href="#"
+                        href="https://www.facebook.com/Fiskerinc/"
                         rel="noreferrer"
                         target="_blank"
                         class="text-black transition hover:text-black/75">
@@ -78,7 +78,7 @@ export default function FooterV1() {
 
                     <li>
                       <a
-                        href="#"
+                        href="https://www.instagram.com/fiskerinc/?hl=en"
                         rel="noreferrer"
                         target="_blank"
                         class="text-black transition hover:text-black/75">
@@ -99,7 +99,7 @@ export default function FooterV1() {
 
                     <li>
                       <a
-                        href="#"
+                        href="https://twitter.com/FiskerInc"
                         rel="noreferrer"
                         target="_blank"
                         class="text-black transition hover:text-black/75">
@@ -116,7 +116,7 @@ export default function FooterV1() {
 
                     <li>
                       <a
-                        href="#"
+                        href="https://github.com/frankiecodeycode"
                         rel="noreferrer"
                         target="_blank"
                         class="text-black transition hover:text-black/75">
