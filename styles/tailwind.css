@@ -64,3 +64,11 @@ html {
 .glide__bullet--active > span {
   background: black !important;
 }
+
+.sweep {
+  --width: 1000;
+  animation: sweep calc(var(--width)*4ms) infinite alternate ease-in-out;
+  transform-origin: left;
+  width: -moz-fit-content;
+  width: fit-content
+}
