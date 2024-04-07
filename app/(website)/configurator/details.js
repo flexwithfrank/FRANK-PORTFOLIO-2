@@ -67,7 +67,7 @@ export default function Details() {
 
               <OpenText
                 h1=""
-                p1="Automated Personalized Email based on customers preferences"
+                p1="Personalized Automated Email based on customers preferences"
                 color="#ff3c00"
               />
 
