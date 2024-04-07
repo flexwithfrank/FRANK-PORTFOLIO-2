@@ -10,7 +10,7 @@ export default function OpenText({ h1, p1, color }) {
       <div className="mx-auto">
         <p
           style={{ color: color }}
-          class="centima my-20 max-w-sm text-left text-xl font-extrabold uppercase lg:text-2xl">
+          class="centima my-0 max-w-sm text-left text-xl font-extrabold uppercase lg:text-2xl">
           {p1}
         </p>
       </div>

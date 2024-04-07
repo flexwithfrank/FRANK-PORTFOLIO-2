@@ -15,7 +15,9 @@ export default function Post() {
   return (
     <>
       <HeroBannerV1 />
-      <OpenText color="#ff3c00" p1="Recent Projects" />
+     <div className="py-12">
+     <OpenText color="#ff3c00" p1="Recent Projects" />
+     </div>
       <CarouselV1 />
       <WhatWeDoV2 />
       <IndustryTags />
