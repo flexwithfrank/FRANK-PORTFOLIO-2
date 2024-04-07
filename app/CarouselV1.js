@@ -3,6 +3,7 @@
 "use client";
 import React, { useEffect } from "react";
 import Glide from "@glidejs/glide";
+import Link from "next/link";
 
 export default function CarouselV1() {
   useEffect(() => {
@@ -46,8 +47,8 @@ export default function CarouselV1() {
                   VEHICLE CONFIGURATOR
                 </p>
               </div>
-              <a
-                href="https://cloud.marketing.fiskerinc.com/dealer-x"
+              <Link
+                href="/configurator"
                 target="_blank"
                 rel="noreferrer">
                 <img
@@ -77,7 +78,7 @@ export default function CarouselV1() {
                     />
                   </svg>
                 </span>
-              </a>
+              </Link>
             </li>
             <li className="relative">
               <div className="absolute bottom-0 left-0 mx-5 my-3">

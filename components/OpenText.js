@@ -1,6 +1,6 @@
 export default function OpenText({ h1, p1, color }) {
   return (
-    <div className="px-8 text-left lg:max-w-7xl lg:px-32">
+    <div className="px-8 text-left lg:max-w-7xl lg:px-12">
       <h1
         style={{ color: color }}
         class="impact mx-auto max-w-4xl text-5xl font-extrabold uppercase  sm:text-8xl">

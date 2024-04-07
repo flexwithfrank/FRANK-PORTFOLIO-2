@@ -176,7 +176,7 @@ export default function NavbarV4() {
         </div>
         <div class="mx-auto max-w-2xl p-4 lg:px-8">
           <div className="space-y-3">
-            <div className="relative">
+            {/* <div className="relative">
               <span className="absolute inset-y-0 left-0 flex items-center py-4">
                 <button
                   type="submit"
@@ -195,7 +195,7 @@ export default function NavbarV4() {
                 placeholder="Search..."
                 className="centima w-full border border-white bg-transparent py-2 pl-10 text-sm uppercase focus:outline-none dark:border-transparent dark:bg-gray-800 dark:text-gray-100 focus:dark:bg-gray-900"
               />
-            </div>
+            </div> */}
             <div className="flex-1 text-left">
               <ul className="flex flex-col gap-8 space-y-3 pb-4 pt-8 text-left text-sm lg:gap-12 lg:pt-12">
               <li className="rounded-sm">

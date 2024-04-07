@@ -26,7 +26,7 @@
   }
   .dm-sans-bold{
     font-family: "DM Sans", sans-serif;
-    font-optical-sizing: autoarch -arm64 brew upgrade gitpnpm install --no-frozen-lockfile;
+    font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
   }
@@ -65,10 +65,54 @@ html {
   background: black !important;
 }
 
-.sweep {
-  --width: 1000;
-  animation: sweep calc(var(--width)*4ms) infinite alternate ease-in-out;
-  transform-origin: left;
-  width: -moz-fit-content;
-  width: fit-content
+/* Custom Styles */
+
+@keyframes infiniteScroll {
+  0% {transform: translateX(0)}
+  50% {transform: translateX(-100%)}
+  100% {transform: translateX(0)}
+}
+
+.horizontal-scrolling-items {
+  display: flex;
+  width: 100%;
+  animation-name: infiniteScroll;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  position: relative; /* Add this line */
+}
+
+@media (min-width: 768px) {
+  /* Add this block */
+.text-container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 400px; /* Adjust as needed */
+  height: 100%;
+  background: linear-gradient(to left, #f4f0e6 0%, transparent 100%);
+}
+}
+
+@font-face {
+  font-family: IBMPlexSans-Regular;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/Users/rodriguezmedia/Documents/GLZE 1/public/fonts/IBMPlexSans-Regular.ttf") format("truetype");
+}
+  /* @font-face {
+    font-family: 'Your Font Name';
+    src: url('/path/to/your/font/file.woff2') format('woff2'),
+         url('/path/to/your/font/file.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  } */
+
+.ibm {
+  font-family: IBMPlexSans-Regular !important;
 }
