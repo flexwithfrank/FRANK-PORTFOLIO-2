@@ -86,8 +86,8 @@ export default function CarouselV1() {
                   PRODUCT DETAILS
                 </p>
               </div>
-              <a
-                href="https://mczvd2z6j1-c05qk6ttb60b92894.pub.sfmc-content.com/43r4cjua2xg"
+              <Link
+                href="/product-details"
                 target="_blank"
                 rel="noreferrer">
                 <img
@@ -117,7 +117,7 @@ export default function CarouselV1() {
                     />
                   </svg>
                 </span>
-              </a>
+              </Link>
             </li>
             <li className="relative">
               <div className="absolute bottom-0 left-0 mx-5 my-3">

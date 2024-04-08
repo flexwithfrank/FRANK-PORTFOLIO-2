@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-export default function Badge({ titleText, value1, value2, value3, value4, value5, value6  }) {
+export default function Badge({ titleText, value1, value2, value3, value4, value5, value6, color  }) {
 
     const badges = {
         text1: value1,
@@ -15,14 +15,16 @@ export default function Badge({ titleText, value1, value2, value3, value4, value
       <div class="relative mx-auto overflow-hidden">
         <div class="align-start mx-auto max-w-[85rem] items-start justify-start px-0 py-0 pb-12 text-left">
           <div class="text-left">
-            <h1 class="centima text-xl font-bold uppercase tracking-tighter text-[#ff3c00] sm:text-2xl">
+            <h1 style={{ color: color }} 
+            class="centima text-xl font-bold uppercase tracking-tighter sm:text-2xl">
               {titleText}
             </h1>
             <div class="mx-auto mt-4 flex max-w-2xl flex-wrap sm:mt-4">
               {Object.entries(badges).map(([text, value]) => (
                 <div
                   key={text}
-                  className="centima m-1 inline-flex cursor-pointer items-center gap-x-2 rounded-lg border border-gray-300 bg-transparent px-3 py-2 text-sm uppercase text-[#ff3c00] shadow duration-300 ease-in-out hover:bg-[#ff3c00] hover:text-white hover:shadow-sm hover:transition-all disabled:pointer-events-none disabled:opacity-50 dark:border-gray-700 dark:bg-slate-900 dark:text-white dark:hover:bg-gray-800 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600">
+                  style={{ color: color }}
+                  className="centima m-1 inline-flex cursor-pointer items-center gap-x-2 rounded-lg border border-gray-300 bg-transparent px-3 py-2 text-sm uppercase hover:bg-[#ff3c00]  shadow duration-300 ease-in-out hover:text-white hover:shadow-sm hover:transition-all disabled:pointer-events-none disabled:opacity-50 dark:border-gray-700 dark:bg-slate-900 dark:text-white dark:hover:bg-gray-800 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"

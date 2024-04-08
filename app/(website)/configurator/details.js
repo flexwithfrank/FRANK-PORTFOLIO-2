@@ -1,5 +1,7 @@
+/* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable @next/next/no-sync-scripts */
+"use-client";
 import LargeText from "@/components/LargeText";
 import Badge from "@/components/ui/Badge";
 import Hero from "@/components/Hero";
@@ -27,8 +29,9 @@ export default function Details() {
                 value3="React"
                 value4="JavaScript"
                 value5="API"
-                value6='Email Personalization'
+                value6="Email Personalization"
                 titleText="Tech Stack"
+                color="#ff3c00"
               />
 
               {/*<!-- End Rounded full basic base sized badge --> */}
@@ -41,6 +44,15 @@ export default function Details() {
               the configurator provides an intuitive interface for
               users to customize every aspect of their dream ride,
               from paint color to interior features.
+              <br />
+              <br />
+              View the full web experience &nbsp;
+               <a
+                href="https://cloud.marketing.fiskerinc.com/dealer-x"
+                className="font-bold underline"
+                target="_blank">
+                here
+              </a>
             </div>
           </div>
         </div>
