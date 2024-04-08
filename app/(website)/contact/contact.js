@@ -4,6 +4,7 @@ import Container from "@/components/container";
 import { useState } from "react";
 import { useForm } from "react-hook-form";
 import useWeb3Forms from "@web3forms/react";
+import LargeText from "@/components/LargeText";
 import {
   MapPinIcon,
   EnvelopeIcon,
@@ -44,19 +45,18 @@ export default function Contact({ settings }) {
   });
 
   return (
-    <Container>
-      <h1 className="impact mb-3 mt-2 text-center text-3xl font-semibold uppercase tracking-tight text-[#ff3c00] dark:text-white lg:text-7xl lg:leading-snug">
-        Contact Me
-      </h1>
-      <div className="my-10 grid md:grid-cols-2">
+    <Container large alt>
+      <div>
+        <LargeText h1="Get In Touch" h2="Get In Touch Get In Touch" color="#ff3c00" />
+      </div>
+      <div className="my-10 grid md:grid-cols-2 lg:max-w-5xl mx-auto w-full lg:px-0 px-8">
         <div className="my-10">
           {/* <h2 className="text-3xl font-semibold dark:text-white text-[#ff3c00] impact uppercase">
             HAPPY TO HELP
           </h2> */}
           <p className="dm-sans-med mt-5 max-w-sm text-xl text-[#ff3c00]">
-            I am looking forward to hearing from you! Please feel free
-            to get in touch via the form below, I will get back to you
-            as soon as possible.
+            Please get in touch via the form below, I will get back to you
+            as soon as possible. I look forward to hearing from you! 
           </p>
 
           <div className="dm-sans-med mt-5">

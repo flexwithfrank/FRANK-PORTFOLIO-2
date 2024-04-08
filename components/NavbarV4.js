@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React from "react";
 import Link from "next/link";
 import Weather from "@/components/weather";
@@ -135,7 +136,7 @@ export default function NavbarV4() {
                 href="/contact"
                 className="w-28 px-6 sm:px-0 sm:py-6">
                 <h1 class="centima text-md mx-auto font-extrabold uppercase text-gray-800">
-                  MESSAGE
+                  CONTACT
                 </h1>
               </Link>
             </div>
@@ -209,7 +210,7 @@ export default function NavbarV4() {
                   <a
                     href="https://vfr-porfolio.vercel.app/contact"
                     className="centima text-md mx-auto rounded-md py-2 font-extrabold uppercase text-white sm:px-0 sm:py-6">
-                    MESSAGE
+                    CONTACT
                   </a>
                 </li>
                 {/* <li className="rounded-sm">
@@ -232,18 +233,12 @@ export default function NavbarV4() {
                 </li> */}
                 <li className="rounded-sm">
                   <a
-                    href="mailto:vfrodriguez@proton.me"
+                    href="mailto:vfrodriguez@proton.me" target="_blank"
                     className="centima text-md mx-auto rounded-md font-extrabold uppercase text-white sm:px-0 sm:py-6">
                     EMAIL
                   </a>
                 </li>
-                <li className="rounded-sm">
-                  <a
-                    href="tel:2535615378"
-                    className="centima text-md mx-auto rounded-md font-extrabold uppercase text-white sm:px-0 sm:py-6">
-                    CALL
-                  </a>
-                </li>
+               
               </ul>
             </div>
           </div>
