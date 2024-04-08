@@ -14,9 +14,9 @@ const styles = {
 
 export default function HeroBannerV1() {
   return (
-    <div className="relative mx-auto mt-8 px-8 pb-28 lg:px-0">
+    <div className="relative mx-auto mt-8 px-0 pb-28 lg:px-0">
       <div className="relative">
-        <div className="mx-auto pt-6 px-12">
+        <div className="mx-auto pt-6 px-6 lg:px-12">
           <img
             className="h-32 w-32 transform rounded-full transition-transform duration-500 ease-in-out hover:scale-110"
             src="https://ik.imagekit.io/is20rnl48/DSC_5283%20(1).jpg?updatedAt=1709309781808"
@@ -24,7 +24,7 @@ export default function HeroBannerV1() {
           />
         </div>
 
-        <div className="relative mx-auto px-12 z-50">
+        <div className="relative mx-auto px-6 lg:px-12 z-50">
           <p className="inter-medium mt-4 max-w-3xl text-xl text-[#ff3c00] lg:text-2xl">
             Welcome to my digital frontier! As a passionate web and
             email developer, I thrive on transforming concepts into

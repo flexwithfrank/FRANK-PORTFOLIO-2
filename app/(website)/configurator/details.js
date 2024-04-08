@@ -27,7 +27,8 @@ export default function Details() {
                 value3="React"
                 value4="JavaScript"
                 value5="API"
-                titleText="Frameworks"
+                value6='Email Personalization'
+                titleText="Tech Stack"
               />
 
               {/*<!-- End Rounded full basic base sized badge --> */}
