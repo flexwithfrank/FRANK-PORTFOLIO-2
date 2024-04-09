@@ -6,7 +6,7 @@ export default function Container(props) {
       className={cx(
         " px-0 mx-auto xl:px-0",
         props.large ? "w-full" : "w-full",
-        !props.alt && "py-5 lg:py-8",
+        !props.alt && "py-0 lg:py-0",
         props.className
       )}>
       {props.children}

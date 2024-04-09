@@ -53,7 +53,7 @@ export default function Product() {
       {/*<!-- End Two columns even layout --> */}
 
       <div className="w-full py-12">
-        <Hero url="https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/81p7eutj/dcx/odd/f1u/Group%2039%20%281%29.png" />
+        <Hero url="https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/81p7eutj/thk/5uo/eub/Untitled%20design%20%283%29.gif" />
       </div>
 
       {/*<!-- Component: Two columns even layout --> */}
