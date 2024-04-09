@@ -15,10 +15,12 @@ export default function NavbarV4() {
           class="relative mx-auto flex w-full max-w-[85rem] basis-full flex-wrap items-center px-4 sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8"
           aria-label="Global">
           <div class="flex items-center justify-between">
-            <Link href="/" className="p-2 lg:w-60">
-              <h1 class="centima mx-auto max-w-4xl text-3xl font-extrabold uppercase text-[#000000]">
-                FRANK
-                <span class="text-xs text-[#000000]">&copy;</span>
+            <Link href="/" className="p-2 lg:w-full">
+              <h1 class="centima mx-auto w-full text-md font-extrabold uppercase text-[#000000] lg:block hidden">
+                FRANK RODRIGUEZ | EMAIL & WEB DEVELOPER
+              </h1>
+              <h1 class="centima mx-auto max-w-4xl text-md font-extrabold uppercase text-[#000000] lg:hidden block">
+                F. Rodriguez
               </h1>
             </Link>
           </div>

@@ -66,7 +66,7 @@ export default function Product() {
               <OpenText
                 h1=""
                 p1="Preview the page"
-                color="#ff3c00"
+                color="#5e5e7b"
               />
 
               {/*<!-- End Rounded full basic base sized badge --> */}
