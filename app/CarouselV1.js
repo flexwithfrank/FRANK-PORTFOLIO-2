@@ -246,13 +246,13 @@ export default function CarouselV1() {
                 target="_blank"
                 rel="noreferrer">
                 <img
-                  src="https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/81p7eutj/plu/iwo/ony/Group%2027%20%283%29.png"
+                  src="https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/81p7eutj/n7t/gka/cma/Group%2050%20%282%29%20%281%29.png"
                   alt="rewards"
                   className="m-auto max-h-full w-full max-w-full"
                 />
                 <div className="absolute inset-0 flex items-center justify-center px-6 lg:px-12">
                   <img
-                    src="https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/81p7eutj/n7t/gka/cma/Group%2050%20%282%29%20%281%29.png" // Replace
+                    src="https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/81p7eutj/jc5/0d2/jjn/screencapture-cloud-marketing-fiskerinc-search-inventory-2024-04-08-19_12_34%20%281%29%20%281%29%202%20%281%29.png" // Replace
                     alt="Description"
                     className="object-contain"
                   />
