@@ -28,11 +28,11 @@ async function sharedMetaData(params: any) {
     // metadataBase: new URL(settings.url),
     title: {
       default:
-        settings?.title || "GLZE MEDIA | Fisker News and Media",
+        settings?.title || "Frank Rodriguez Portfolio",
       template: "%s | Stablo"
     },
     description:
-      settings?.description || "GLZE MEDIA | Fisker News and Media",
+      settings?.description || "Frank Rodriguez Portfolio",
     keywords: ["Fisker", "EV", "Electric Vehicles"],
     authors: [{ name: "Frank" }],
     canonical: settings?.url,

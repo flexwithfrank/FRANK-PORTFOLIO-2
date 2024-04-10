@@ -241,8 +241,8 @@ export default function CarouselV1() {
                   INVENTORY MANAGEMENT
                 </p>
               </div>
-              <a
-                href="https://cloud.marketing.fiskerinc.com/search-inventory"
+              <Link
+                href="/inventory-management"
                 target="_blank"
                 rel="noreferrer">
                 <img
@@ -272,7 +272,7 @@ export default function CarouselV1() {
                     />
                   </svg>
                 </span>
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
