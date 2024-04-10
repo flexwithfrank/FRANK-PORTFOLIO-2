@@ -45,6 +45,7 @@
     "react-iframe": "^1.8.5",
     "react-parallax": "^3.5.1",
     "react-refractor": "^2.1.7",
+    "react-scroll-parallax": "^3.4.5",
     "sanity": "^3.26.0",
     "sanity-plugin-asset-source-unsplash": "^1.1.2",
     "styled-components": "^6.1.8",
