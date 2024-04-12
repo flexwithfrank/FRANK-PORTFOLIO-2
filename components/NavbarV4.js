@@ -17,7 +17,7 @@ export default function NavbarV4() {
           <div class="flex items-center justify-between">
             <Link href="/" className="p-2 lg:w-full">
               <h1 class="centima mx-auto w-full text-md font-extrabold uppercase text-[#000000] lg:block hidden">
-                FRANK RODRIGUEZ | EMAIL & WEB DEVELOPER
+                FRANK RODRIGUEZ | SFMC DEVELOPER
               </h1>
               <h1 class="centima mx-auto max-w-4xl text-md font-extrabold uppercase text-[#000000] lg:hidden block">
                 F. Rodriguez
