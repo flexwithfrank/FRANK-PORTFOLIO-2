@@ -31,8 +31,7 @@ export default function HeroBannerV1() {
   return (
     <div className="relative mx-auto mt-8 px-0 pb-28 lg:px-0">
       <div className="relative">
-
-      <div className="absolute right-0 top-0 lg:w-[40rem] hidden lg:block">
+        <div className="absolute right-0 top-0 hidden lg:block lg:w-[40rem]">
           <img
             className="transform rounded shadow-2xl transition-transform duration-500 ease-in-out"
             id="myImage"
@@ -40,7 +39,7 @@ export default function HeroBannerV1() {
             alt="image description"
           />
         </div>
-       
+
         <div className="mx-auto px-6 pt-6 lg:px-12">
           <img
             className="z-50 h-32 w-32 transform rounded-full transition-transform duration-500 ease-in-out hover:scale-110"
@@ -55,7 +54,9 @@ export default function HeroBannerV1() {
             email developer, I thrive on transforming concepts into
             captivating online experiences. With a keen eye for detail
             and a commitment to seamless functionality, I am dedicated
-            to bringing your vision to life.
+            to bringing any vision to life. I specialize in
+            Salesforce Marketing Cloud, HTML, CSS, JavaScript, and
+            React.
           </p>
 
           <div className="py-12">
@@ -67,11 +68,7 @@ export default function HeroBannerV1() {
               className="py-12"
             />
           </div>
-
         </div>
-
-      
-       
 
         <div className="relative z-0">
           <LargeText
