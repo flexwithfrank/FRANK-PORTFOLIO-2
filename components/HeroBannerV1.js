@@ -51,12 +51,10 @@ export default function HeroBannerV1() {
         <div className="relative z-50 mx-auto px-6 lg:px-12">
           <p className="inter-medium mt-4 max-w-3xl text-xl text-[#ff3c00] lg:text-2xl">
             Welcome to my digital frontier! As a passionate web and
-            email developer, I thrive on transforming concepts into
+            email developer specializing in Salesforce, I thrive on transforming concepts into
             captivating online experiences. With a keen eye for detail
             and a commitment to seamless functionality, I am dedicated
-            to bringing any vision to life. I specialize in
-            Salesforce Marketing Cloud, HTML, CSS, JavaScript, and
-            React.
+            to building delightful digital solutions.
           </p>
 
           <div className="py-12">
