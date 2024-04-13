@@ -31,18 +31,18 @@
     font-style: normal;
   }
 
-  @font-face {
-    font-family: "Centima Mono W01 Regular";
-    src: url("https://db.onlinewebfonts.com/t/d8c93de9fc5967b7452095abbc3db4b9.eot");
-    src: url("https://db.onlinewebfonts.com/t/d8c93de9fc5967b7452095abbc3db4b9.eot?#iefix")format("embedded-opentype"),
-    url("https://db.onlinewebfonts.com/t/d8c93de9fc5967b7452095abbc3db4b9.woff2")format("woff2"),
-    url("https://db.onlinewebfonts.com/t/d8c93de9fc5967b7452095abbc3db4b9.woff")format("woff"),
-    url("https://db.onlinewebfonts.com/t/d8c93de9fc5967b7452095abbc3db4b9.ttf")format("truetype"),
-    url("https://db.onlinewebfonts.com/t/d8c93de9fc5967b7452095abbc3db4b9.svg#Centima Mono W01 Regular")format("svg");
+@font-face {
+  font-family: 'Centima Pro Sans Bold';
+  src: url('/Users/rodriguezmedia/Documents/GLZE 1/public/fonts/CentimaProSans-Bold.woff2') format('woff2'),
+       url('/Users/rodriguezmedia/Documents/GLZE 1/public/fonts/CentimaProSans-Bold.woff') format('woff'),
+       url('/Users/rodriguezmedia/Documents/GLZE 1/public/fonts/CentimaProSans-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
 
 .centima{
-    font-family: "Centima Mono W01 Regular", sans-serif !important;
+    font-family: "Centima Pro Sans Bold'", sans-serif !important;
 }
 
 @font-face {
@@ -104,15 +104,15 @@ html {
   font-display: swap;
   src: url("/Users/rodriguezmedia/Documents/GLZE 1/public/fonts/IBMPlexSans-Regular.ttf") format("truetype");
 }
-  /* @font-face {
-    font-family: 'Your Font Name';
-    src: url('/path/to/your/font/file.woff2') format('woff2'),
-         url('/path/to/your/font/file.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-  } */
 
-.ibm {
-  font-family: IBMPlexSans-Regular !important;
+// <uniquifier>: Use a unique and descriptive class name
+// <uniquifier>: Use a unique and descriptive class name
+
+.league-gothic-bold {
+  font-family: "League Gothic", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }

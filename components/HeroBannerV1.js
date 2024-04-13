@@ -52,7 +52,7 @@ export default function HeroBannerV1() {
           <p className="inter-medium mt-4 max-w-3xl text-xl text-[#ff3c00] lg:text-2xl">
             Welcome to my digital frontier! As a passionate web and
             email developer specializing in Salesforce, I thrive on transforming concepts into
-            captivating online experiences. With a keen eye for detail
+            captivating online experiences. With a sharp eye for detail
             and a commitment to seamless functionality, I am dedicated
             to building delightful digital solutions.
           </p>

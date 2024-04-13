@@ -16,10 +16,10 @@ export default function NavbarV4() {
           aria-label="Global">
           <div class="flex items-center justify-between">
             <Link href="/" className="p-2 lg:w-full">
-              <h1 class="centima mx-auto w-full text-md font-extrabold uppercase text-[#000000] lg:block hidden">
-                FRANK RODRIGUEZ | SFMC DEVELOPER
+              <h1 class="mx-auto w-full text-md font-bold text-[#000000] lg:block hidden uppercase">
+                Frank Rodriguez | SFMC Developer
               </h1>
-              <h1 class="centima mx-auto max-w-4xl text-md font-extrabold uppercase text-[#000000] lg:hidden block">
+              <h1 class="mx-auto max-w-4xl text-md font-bold uppercase text-[#000000] lg:hidden block">
                 F. Rodriguez
               </h1>
             </Link>
