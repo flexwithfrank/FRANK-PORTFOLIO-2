@@ -9,7 +9,7 @@ export default function IndustryTags() {
               Industry's and Technologies
             </h1>
             <div class="mx-auto mt-10 flex max-w-2xl flex-wrap sm:mt-10">
-              <div class="centima m-1 inline-flex cursor-pointer items-center gap-x-2 rounded-lg border border-gray-300 bg-transparent px-4 py-3 text-sm uppercase text-[#ff3c00] shadow-xl duration-300 ease-in-out hover:bg-[#ff3c00] hover:text-white hover:shadow-sm hover:transition-all disabled:pointer-events-none disabled:opacity-50 dark:border-gray-700 dark:bg-slate-900 dark:text-white dark:hover:bg-gray-800 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600">
+            <div class="centima m-1 inline-flex cursor-pointer items-center gap-x-2 rounded-lg border border-gray-300 bg-transparent px-4 py-3 text-sm uppercase text-[#ff3c00] shadow-xl duration-300 ease-in-out hover:bg-[#ff3c00] hover:text-white hover:shadow-sm hover:transition-all disabled:pointer-events-none disabled:opacity-50 dark:border-gray-700 dark:bg-slate-900 dark:text-white dark:hover:bg-gray-800 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
@@ -17,7 +17,7 @@ export default function IndustryTags() {
                   className="h-5 w-5">
                   <path d="M10.75 4.75a.75.75 0 0 0-1.5 0v4.5h-4.5a.75.75 0 0 0 0 1.5h4.5v4.5a.75.75 0 0 0 1.5 0v-4.5h4.5a.75.75 0 0 0 0-1.5h-4.5v-4.5Z" />
                 </svg>
-                E-Commerce
+                Salesforce Marketing Cloud
               </div>
               <div class="centima m-1 inline-flex cursor-pointer items-center gap-x-2 rounded-lg border border-gray-300 bg-transparent px-4 py-3 text-sm uppercase text-[#ff3c00] shadow-xl duration-300 ease-in-out hover:bg-[#ff3c00] hover:text-white hover:shadow-sm hover:transition-all disabled:pointer-events-none disabled:opacity-50 dark:border-gray-700 dark:bg-slate-900 dark:text-white dark:hover:bg-gray-800 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600">
                 <svg
@@ -27,7 +27,67 @@ export default function IndustryTags() {
                   className="h-5 w-5">
                   <path d="M10.75 4.75a.75.75 0 0 0-1.5 0v4.5h-4.5a.75.75 0 0 0 0 1.5h4.5v4.5a.75.75 0 0 0 1.5 0v-4.5h4.5a.75.75 0 0 0 0-1.5h-4.5v-4.5Z" />
                 </svg>
-                Website
+                AMPSCRIPT
+              </div>
+              <div class="centima m-1 inline-flex cursor-pointer items-center gap-x-2 rounded-lg border border-gray-300 bg-transparent px-4 py-3 text-sm uppercase text-[#ff3c00] shadow-xl duration-300 ease-in-out hover:bg-[#ff3c00] hover:text-white hover:shadow-sm hover:transition-all disabled:pointer-events-none disabled:opacity-50 dark:border-gray-700 dark:bg-slate-900 dark:text-white dark:hover:bg-gray-800 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  className="h-5 w-5">
+                  <path d="M10.75 4.75a.75.75 0 0 0-1.5 0v4.5h-4.5a.75.75 0 0 0 0 1.5h4.5v4.5a.75.75 0 0 0 1.5 0v-4.5h4.5a.75.75 0 0 0 0-1.5h-4.5v-4.5Z" />
+                </svg>
+                HTML
+              </div>
+              <div class="centima m-1 inline-flex cursor-pointer items-center gap-x-2 rounded-lg border border-gray-300 bg-transparent px-4 py-3 text-sm uppercase text-[#ff3c00] shadow-xl duration-300 ease-in-out hover:bg-[#ff3c00] hover:text-white hover:shadow-sm hover:transition-all disabled:pointer-events-none disabled:opacity-50 dark:border-gray-700 dark:bg-slate-900 dark:text-white dark:hover:bg-gray-800 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  className="h-5 w-5">
+                  <path d="M10.75 4.75a.75.75 0 0 0-1.5 0v4.5h-4.5a.75.75 0 0 0 0 1.5h4.5v4.5a.75.75 0 0 0 1.5 0v-4.5h4.5a.75.75 0 0 0 0-1.5h-4.5v-4.5Z" />
+                </svg>
+                CSS
+              </div>
+              <div class="centima m-1 inline-flex cursor-pointer items-center gap-x-2 rounded-lg border border-gray-300 bg-transparent px-4 py-3 text-sm uppercase text-[#ff3c00] shadow-xl duration-300 ease-in-out hover:bg-[#ff3c00] hover:text-white hover:shadow-sm hover:transition-all disabled:pointer-events-none disabled:opacity-50 dark:border-gray-700 dark:bg-slate-900 dark:text-white dark:hover:bg-gray-800 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  className="h-5 w-5">
+                  <path d="M10.75 4.75a.75.75 0 0 0-1.5 0v4.5h-4.5a.75.75 0 0 0 0 1.5h4.5v4.5a.75.75 0 0 0 1.5 0v-4.5h4.5a.75.75 0 0 0 0-1.5h-4.5v-4.5Z" />
+                </svg>
+                SQL
+              </div>
+              <div class="centima m-1 inline-flex cursor-pointer items-center gap-x-2 rounded-lg border border-gray-300 bg-transparent px-4 py-3 text-sm uppercase text-[#ff3c00] shadow-xl duration-300 ease-in-out hover:bg-[#ff3c00] hover:text-white hover:shadow-sm hover:transition-all disabled:pointer-events-none disabled:opacity-50 dark:border-gray-700 dark:bg-slate-900 dark:text-white dark:hover:bg-gray-800 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  className="h-5 w-5">
+                  <path d="M10.75 4.75a.75.75 0 0 0-1.5 0v4.5h-4.5a.75.75 0 0 0 0 1.5h4.5v4.5a.75.75 0 0 0 1.5 0v-4.5h4.5a.75.75 0 0 0 0-1.5h-4.5v-4.5Z" />
+                </svg>
+                JAVASCRIPT
+              </div>
+              <div class="centima m-1 inline-flex cursor-pointer items-center gap-x-2 rounded-lg border border-gray-300 bg-transparent px-4 py-3 text-sm uppercase text-[#ff3c00] shadow-xl duration-300 ease-in-out hover:bg-[#ff3c00] hover:text-white hover:shadow-sm hover:transition-all disabled:pointer-events-none disabled:opacity-50 dark:border-gray-700 dark:bg-slate-900 dark:text-white dark:hover:bg-gray-800 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  className="h-5 w-5">
+                  <path d="M10.75 4.75a.75.75 0 0 0-1.5 0v4.5h-4.5a.75.75 0 0 0 0 1.5h4.5v4.5a.75.75 0 0 0 1.5 0v-4.5h4.5a.75.75 0 0 0 0-1.5h-4.5v-4.5Z" />
+                </svg>
+                E-Commerce Development
+              </div>
+              <div class="centima m-1 inline-flex cursor-pointer items-center gap-x-2 rounded-lg border border-gray-300 bg-transparent px-4 py-3 text-sm uppercase text-[#ff3c00] shadow-xl duration-300 ease-in-out hover:bg-[#ff3c00] hover:text-white hover:shadow-sm hover:transition-all disabled:pointer-events-none disabled:opacity-50 dark:border-gray-700 dark:bg-slate-900 dark:text-white dark:hover:bg-gray-800 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  className="h-5 w-5">
+                  <path d="M10.75 4.75a.75.75 0 0 0-1.5 0v4.5h-4.5a.75.75 0 0 0 0 1.5h4.5v4.5a.75.75 0 0 0 1.5 0v-4.5h4.5a.75.75 0 0 0 0-1.5h-4.5v-4.5Z" />
+                </svg>
+                Web Design
               </div>
               <div class="centima m-1 inline-flex cursor-pointer items-center gap-x-2 rounded-lg border border-gray-300 bg-transparent px-4 py-3 text-sm uppercase text-[#ff3c00] shadow-xl duration-300 ease-in-out hover:bg-[#ff3c00] hover:text-white hover:shadow-sm hover:transition-all disabled:pointer-events-none disabled:opacity-50 dark:border-gray-700 dark:bg-slate-900 dark:text-white dark:hover:bg-gray-800 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600">
                 <svg
@@ -59,36 +119,7 @@ export default function IndustryTags() {
                 </svg>
                 GROWTH GEN
               </div>
-              <div class="centima m-1 inline-flex cursor-pointer items-center gap-x-2 rounded-lg border border-gray-300 bg-transparent px-4 py-3 text-sm uppercase text-[#ff3c00] shadow-xl duration-300 ease-in-out hover:bg-[#ff3c00] hover:text-white hover:shadow-sm hover:transition-all disabled:pointer-events-none disabled:opacity-50 dark:border-gray-700 dark:bg-slate-900 dark:text-white dark:hover:bg-gray-800 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                  className="h-5 w-5">
-                  <path d="M10.75 4.75a.75.75 0 0 0-1.5 0v4.5h-4.5a.75.75 0 0 0 0 1.5h4.5v4.5a.75.75 0 0 0 1.5 0v-4.5h4.5a.75.75 0 0 0 0-1.5h-4.5v-4.5Z" />
-                </svg>
-                HTML
-              </div>
-              <div class="centima m-1 inline-flex cursor-pointer items-center gap-x-2 rounded-lg border border-gray-300 bg-transparent px-4 py-3 text-sm uppercase text-[#ff3c00] shadow-xl duration-300 ease-in-out hover:bg-[#ff3c00] hover:text-white hover:shadow-sm hover:transition-all disabled:pointer-events-none disabled:opacity-50 dark:border-gray-700 dark:bg-slate-900 dark:text-white dark:hover:bg-gray-800 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                  className="h-5 w-5">
-                  <path d="M10.75 4.75a.75.75 0 0 0-1.5 0v4.5h-4.5a.75.75 0 0 0 0 1.5h4.5v4.5a.75.75 0 0 0 1.5 0v-4.5h4.5a.75.75 0 0 0 0-1.5h-4.5v-4.5Z" />
-                </svg>
-                CSS
-              </div>
-              <div class="centima m-1 inline-flex cursor-pointer items-center gap-x-2 rounded-lg border border-gray-300 bg-transparent px-4 py-3 text-sm uppercase text-[#ff3c00] shadow-xl duration-300 ease-in-out hover:bg-[#ff3c00] hover:text-white hover:shadow-sm hover:transition-all disabled:pointer-events-none disabled:opacity-50 dark:border-gray-700 dark:bg-slate-900 dark:text-white dark:hover:bg-gray-800 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                  className="h-5 w-5">
-                  <path d="M10.75 4.75a.75.75 0 0 0-1.5 0v4.5h-4.5a.75.75 0 0 0 0 1.5h4.5v4.5a.75.75 0 0 0 1.5 0v-4.5h4.5a.75.75 0 0 0 0-1.5h-4.5v-4.5Z" />
-                </svg>
-                JAVASCRIPT
-              </div>
+             
               <div class="centima m-1 inline-flex cursor-pointer items-center gap-x-2 rounded-lg border border-gray-300 bg-transparent px-4 py-3 text-sm uppercase text-[#ff3c00] shadow-xl duration-300 ease-in-out hover:bg-[#ff3c00] hover:text-white hover:shadow-sm hover:transition-all disabled:pointer-events-none disabled:opacity-50 dark:border-gray-700 dark:bg-slate-900 dark:text-white dark:hover:bg-gray-800 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
