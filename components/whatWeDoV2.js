@@ -11,7 +11,7 @@ export default function WhatWeDoV2() {
             WHAT I DO
           </h2>
           <p className="dm-sans-med text-[#ff3c00]">
-            Consider me a growth-generation guru, lead-generation
+            Consider me a marketing cloud pro, lead-generation
             wizard, and web/email dev expert!
           </p>
         </div>
