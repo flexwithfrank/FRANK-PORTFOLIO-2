@@ -128,11 +128,11 @@ export default function NavbarV4() {
                   PROJECTS
                 </h1>
               </a>
-              <Link href="/home/lifestyle" className="w-28 px-6 sm:px-0 sm:py-6">
+              {/* <Link href="/home/lifestyle" className="w-28 px-6 sm:px-0 sm:py-6">
                 <h1 class="centima text-md mx-auto font-extrabold uppercase text-gray-800">
                   BLOG
                 </h1>
-              </Link>
+              </Link> */}
            
               <Link
                 href="/contact"

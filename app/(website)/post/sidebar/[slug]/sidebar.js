@@ -89,7 +89,7 @@ export default function Post(props) {
         </div>
       </div>
 
-      {/* {post?.mainImage && <MainImage image={post.mainImage} />} */}
+      {post?.mainImage && <MainImage image={post.mainImage} />}
       <div className="mx-auto mt-14 flex max-w-screen-xl flex-col gap-5 px-5 md:flex-row">
         <article className="flex-1">
           <div className="prose prose-lg mx-auto my-3 dark:prose-invert prose-a:text-blue-500">
