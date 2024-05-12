@@ -34,7 +34,7 @@ export default function ProjectGrid() {
           </svg>
         </div>
         <div class="max-w-xs">
-          <h2 class="inter-medium text-2xl font-bold tracking-tight dark:text-white md:text-4xl md:leading-tight">
+          <h2 id="projects" class="inter-medium text-2xl font-bold tracking-tight dark:text-white md:text-4xl md:leading-tight">
             Projects
           </h2>
         </div>
