@@ -38,8 +38,8 @@ export default function Weather() {
   }, []);
 
   return (
-    <div className="centima font-extrabold uppercase tracking-tighter text-[#ff3c00]">
-      {temperature ? `Seattle: ${temperature}°F` : "Seattle..."}{" "}
+    <div className="font-extrabold uppercase text-[#000] oswald-medium">
+      {temperature ? `SEA: ${temperature}°F` : "SEA..."}{" "}
       {temperature &&
         (temperature > 60 ? (
           <FontAwesomeIcon icon={faSun} />

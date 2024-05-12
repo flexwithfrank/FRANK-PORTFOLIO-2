@@ -1,25 +1,27 @@
 /* eslint-disable react/jsx-no-target-blank */
-'use client'
+"use client";
 
 import React from "react";
 import Link from "next/link";
 import Weather from "@/components/weather";
+import { motion } from "framer-motion";
 
 export default function NavbarV4() {
-  
-
   return (
-    <div>
-      <header className="z-50 flex w-full flex-wrap  bg-[#f4f0e6]' py-3 text-sm sm:flex-nowrap sm:justify-start sm:py-0">
+    <motion.div
+      initial={{ y: 50, opacity: 0 }}
+      animate={{ y: 0, opacity: 1 }}
+      transition={{ duration: 0.5, ease: "easeOut", delay: 0.0 }}>
+      <header className="oswald-medium z-50 flex w-full  flex-wrap border-b bg-[#fff] py-3 text-sm uppercase sm:flex-nowrap sm:justify-start sm:py-0">
         <nav
           class="relative mx-auto flex w-full max-w-[85rem] basis-full flex-wrap items-center px-4 sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8"
           aria-label="Global">
           <div class="flex items-center justify-between">
             <Link href="/" className="p-2 lg:w-full">
-              <h1 class="mx-auto w-full text-md font-bold text-[#000000] lg:block hidden uppercase">
+              <h1 class="text-md mx-auto hidden w-full font-bold text-[#000000] lg:block">
                 Frank Rodriguez | SFMC Developer
               </h1>
-              <h1 class="mx-auto max-w-4xl text-md font-bold uppercase text-[#000000] lg:hidden block">
+              <h1 class="text-md inter-medium mx-auto block max-w-4xl font-bold text-[#000000] lg:hidden">
                 F. Rodriguez
               </h1>
             </Link>
@@ -124,21 +126,21 @@ export default function NavbarV4() {
               <a
                 href="https://vfr-porfolio.vercel.app/#projects"
                 className="w-28 px-6 sm:px-0 sm:py-6">
-                <h1 class="centima text-md mx-auto font-extrabold uppercase text-gray-800">
-                  PROJECTS
+                <h1 class="oswald-medium text-md mx-auto font-extrabold text-gray-800">
+                  Projects
                 </h1>
               </a>
               {/* <Link href="/home/lifestyle" className="w-28 px-6 sm:px-0 sm:py-6">
-                <h1 class="centima text-md mx-auto font-extrabold uppercase text-gray-800">
+                <h1 class="oswald-medium text-md mx-auto font-extrabold text-gray-800">
                   BLOG
                 </h1>
               </Link> */}
-           
+
               <Link
                 href="/contact"
                 className="w-28 px-6 sm:px-0 sm:py-6">
-                <h1 class="centima text-md mx-auto font-extrabold uppercase text-gray-800">
-                  CONTACT
+                <h1 class="oswald-medium text-md mx-auto font-extrabold text-gray-800">
+                  Contact
                 </h1>
               </Link>
             </div>
@@ -152,8 +154,8 @@ export default function NavbarV4() {
         tabindex="-1">
         <div class="flex items-center justify-between px-4 py-3 lg:px-8">
           <Link href="/" className="w-60">
-            <h1 class="centima mx-auto max-w-4xl text-3xl font-extrabold uppercase text-white">
-              FRANK<span class="text-xs text-white">&copy;</span>
+            <h1 class="oswald-medium mx-auto hidden w-full text-sm font-bold uppercase text-[#fff] lg:block">
+              Frank Rodriguez | SFMC Developer
             </h1>
           </Link>
           <button
@@ -196,56 +198,38 @@ export default function NavbarV4() {
                 type="search"
                 name="Search"
                 placeholder="Search..."
-                className="centima w-full border border-white bg-transparent py-2 pl-10 text-sm uppercase focus:outline-none dark:border-transparent dark:bg-gray-800 dark:text-gray-100 focus:dark:bg-gray-900"
+                className="centima w-full border border-white bg-transparent py-2 pl-10 text-sm focus:outline-none dark:border-transparent dark:bg-gray-800 dark:text-gray-100 focus:dark:bg-gray-900"
               />
             </div> */}
             <div className="flex-1 text-left">
               <ul className="flex flex-col gap-8 space-y-3 pb-4 pt-8 text-left text-sm lg:gap-12 lg:pt-12">
-              <li className="rounded-sm">
+                <li className="rounded-sm">
                   <a
                     href="https://vfr-porfolio.vercel.app/#projects"
-                    className="centima text-md mx-auto rounded-md py-2 font-extrabold uppercase text-white sm:px-0 sm:py-6">
-                    PROJECTS
+                    className="oswald-medium text-md mx-auto rounded-md py-2 font-extrabold uppercase text-white sm:px-0 sm:py-6">
+                    Project
                   </a>
                 </li>
                 <li className="rounded-sm">
                   <a
                     href="https://vfr-porfolio.vercel.app/contact"
-                    className="centima text-md mx-auto rounded-md py-2 font-extrabold uppercase text-white sm:px-0 sm:py-6">
-                    CONTACT
+                    className="oswald-medium text-md mx-auto rounded-md py-2 font-extrabold uppercase text-white sm:px-0 sm:py-6">
+                    Contact
                   </a>
                 </li>
-                {/* <li className="rounded-sm">
-                  <Link
-                    href="/"
-                    className="w-28 rounded-md p-2 px-6 sm:px-0 sm:py-6">
-                    <h1 class="centima text-md mx-auto font-extrabold uppercase text-white">
-                      BLOG
-                    </h1>
-                  </Link>
-                </li> */}
-                {/* <li className="rounded-sm">
-                  <Link
-                    href="/"
-                    className="w-28 rounded-md p-2 px-6 sm:px-0 sm:py-6">
-                    <h1 class="centima text-md mx-auto font-extrabold uppercase text-white">
-                      HOBBIES
-                    </h1>
-                  </Link>
-                </li> */}
                 <li className="rounded-sm">
                   <a
-                    href="mailto:vfrodriguez@proton.me" target="_blank"
-                    className="centima text-md mx-auto rounded-md font-extrabold uppercase text-white sm:px-0 sm:py-6">
-                    EMAIL
+                    href="mailto:vfrodriguez@proton.me"
+                    target="_blank"
+                    className="oswald-medium text-md mx-auto rounded-md font-extrabold uppercase text-white sm:px-0 sm:py-6">
+                    Email
                   </a>
                 </li>
-               
               </ul>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }

@@ -12,8 +12,8 @@ export default function FooterV1() {
           <div class="relative overflow-hidden bg-transparent opacity-90">
             <div class="mx-auto max-w-[85rem] px-4 py-10 sm:px-6 sm:pt-24 lg:px-8">
               <div class="text-center">
-                <h1 class="centima mx-auto max-w-4xl text-2xl font-extrabold uppercase tracking-tighter text-[#ff3c00] dark:text-gray-200 sm:text-2xl">
-                  CONNECT WITH ME.
+                <h1 class="inter-medium mx-auto max-w-4xl text-2xl font-extrabold tracking-tight text-[#000] dark:text-gray-200 sm:text-3xl">
+                  Connect with me.
                 </h1>
                 <div className="mx-auto max-w-md">
                   <p class="dm-sans-med mt-10 text-black dark:text-gray-400">

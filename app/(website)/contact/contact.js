@@ -47,25 +47,25 @@ export default function Contact({ settings }) {
   return (
     <Container large alt>
       <div>
-        <LargeText h1="Get In Touch" h2="Get In Touch Get In Touch" color="#ff3c00" />
+        <LargeText h1="Get In Touch" h2="Get In Touch Get In Touch" color="#000" />
       </div>
       <div className="my-10 grid md:grid-cols-2 lg:max-w-5xl mx-auto w-full lg:px-0 px-8">
         <div className="my-10">
-          {/* <h2 className="text-3xl font-semibold dark:text-white text-[#ff3c00] impact uppercase">
+          {/* <h2 className="text-3xl font-semibold dark:text-white text-[#000] impact uppercase">
             HAPPY TO HELP
           </h2> */}
-          <p className="dm-sans-med mt-5 max-w-sm text-xl text-[#ff3c00]">
+          <p className="dm-sans-med mt-5 max-w-sm text-xl text-[#000]">
             Please get in touch via the form below, I will get back to you
             as soon as possible. I look forward to hearing from you! 
           </p>
 
           <div className="dm-sans-med mt-5">
-            <div className="mt-2 flex items-center space-x-2 text-[#ff3c00] dark:text-gray-400">
+            <div className="mt-2 flex items-center space-x-2 text-[#000] dark:text-gray-400">
               <MapPinIcon className="h-4 w-4" />
               <span>Seattle, WA</span>
             </div>
             {settings?.email && (
-              <div className="mt-2 flex items-center space-x-2 text-[#ff3c00] dark:text-gray-400">
+              <div className="mt-2 flex items-center space-x-2 text-[#000] dark:text-gray-400">
                 <EnvelopeIcon className="h-4 w-4" />
                 <a href={`mailto:${settings.email}`}>
                   {settings.email}
@@ -73,7 +73,7 @@ export default function Contact({ settings }) {
               </div>
             )}
             {settings?.phone && (
-              <div className="mt-2 flex items-center space-x-2 text-[#ff3c00] dark:text-gray-400">
+              <div className="mt-2 flex items-center space-x-2 text-[#000] dark:text-gray-400">
                 <PhoneIcon className="h-4 w-4" />
                 <a href={`tel:${settings.phone}`}>{settings.phone}</a>
               </div>

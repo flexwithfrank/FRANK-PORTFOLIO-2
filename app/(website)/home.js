@@ -10,17 +10,19 @@ import OpenText from "@/components/OpenText";
 import WhatWeDo from "@/components/WhatWeDo";
 import IndustryTags from "@/components/industryTags";
 import WhatWeDoV2 from "@/components/whatWeDoV2";
+import HeroBannerV3 from "@/components/HeroBannerV3";
+import GalleryGrid from "@/components/GalleryGrid"; 
+import SkillsFaqs from "@/components/SkillsFaqs";
+import ProjectGrid from "@/components/ProjectGrid";
+
 
 export default function Post() {
   return (
     <>
-      <HeroBannerV1 />
-     <div className="py-12">
-     <OpenText color="#ff3c00" p1="Recent Projects" />
-     </div>
-      <CarouselV1 />
-      <WhatWeDoV2 />
-      <IndustryTags />
+      <HeroBannerV3 />
+      <GalleryGrid />
+      <SkillsFaqs />
+      <ProjectGrid />
     </>
   );
 }

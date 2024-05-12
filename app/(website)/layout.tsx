@@ -33,7 +33,7 @@ async function sharedMetaData(params: any) {
     },
     description:
       settings?.description || "Frank Rodriguez Portfolio",
-    keywords: ["Fisker", "EV", "Electric Vehicles"],
+    keywords: ["Salesforce", "Developer", "Marketing", "Consultant "],
     authors: [{ name: "Frank" }],
     canonical: settings?.url,
     openGraph: {
@@ -48,7 +48,7 @@ async function sharedMetaData(params: any) {
       ]
     },
     twitter: {
-      title: settings?.title || "Stablo Template",
+      title: settings?.title || "Frank Rodriguez Portfolio",
       card: "summary_large_image"
     },
     robots: {
@@ -75,7 +75,7 @@ export default async function Layout({
       lang="en"
       suppressHydrationWarning
       className={cx(inter.variable, lora.variable)}>
-      <body className="w-full bg-[#f4f0e6] text-gray-800 antialiased dark:bg-black dark:text-gray-400">
+      <body className="w-full bg-[#fff] text-gray-800 antialiased">
         <Providers>
           {/* <GetNavbar {...settings} /> */}
           <NavbarV4 posts={undefined} />
