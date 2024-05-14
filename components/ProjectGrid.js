@@ -276,7 +276,7 @@ export default function ProjectGrid() {
           className="group relative h-full">
           <Link
             className=" flex h-full flex-col justify-between space-y-32 rounded-3xl bg-[#f2f4f7] p-8"
-            href="contact-us">
+            href="/contact-us">
             <div class="align-center mx-auto items-center justify-center overflow-hidden rounded-2xl bg-gray-100 pt-20 transition-transform duration-500 ease-in-out group-hover:scale-105">
               <img
                 class="mx-auto rounded-2xl object-cover px-12 lg:max-w-[325px]"
@@ -304,6 +304,51 @@ export default function ProjectGrid() {
                 </span>
                 <span class="inter-medium inter-medium cursor-pointer rounded-full border border-black px-3 py-1.5 text-[12px] text-black transition duration-150 hover:bg-black hover:text-white dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-400 sm:text-xs">
                   Lead Routing
+                </span>
+              </div>
+            </div>
+          </Link>
+        </motion.div>
+        {/* grid */}
+          {/* grid */}
+          <motion.div
+          initial={{ y: 50, opacity: 0 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          transition={{
+            duration: 0.5,
+            ease: "easeOut",
+            delay: 0.45
+          }}
+          viewport={{ once: true }}
+          className="group relative h-full">
+          <Link
+            className=" flex h-full flex-col justify-between space-y-32 rounded-3xl bg-[#f2f4f7] p-8"
+            href="/loyalty-engagement">
+            <div class="align-center mx-auto items-center justify-center overflow-hidden rounded-2xl bg-gray-100 pt-20 transition-transform duration-500 ease-in-out group-hover:scale-105">
+              <img
+                class="mx-auto rounded-2xl object-cover px-12 lg:max-w-[350px]"
+                src="https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/81p7eutj/ir3/n55/tny/Group%2032%20%284%29%20%281%29%201.png"
+                alt="Image Description"
+              />
+            </div>
+
+            <div>
+              <h3 class="inter-medium relative inline-block pb-2 text-2xl font-bold tracking-tight text-black before:absolute before:bottom-0.5 before:start-0 before:-z-[1] before:h-1 before:w-full before:origin-left before:scale-x-0 before:transition group-hover:before:scale-x-100 dark:text-white">
+                Loyalty Engagement
+              </h3>
+              <div class="mt-3 flex flex-wrap gap-2">
+                <span class="inter-medium cursor-pointer rounded-full border border-black px-3 py-1.5 text-[12px] text-black transition duration-150 hover:bg-black hover:text-white dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-400 sm:text-xs">
+                  HTML
+                </span>
+                <span class="inter-medium inter-medium cursor-pointer rounded-full border border-black px-3 py-1.5 text-[12px] text-black transition duration-150 hover:bg-black hover:text-white dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-400 sm:text-xs">
+                  CSS
+                </span>
+              
+                <span class="inter-medium inter-medium cursor-pointer rounded-full border border-black px-3 py-1.5 text-[12px] text-black transition duration-150 hover:bg-black hover:text-white dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-400 sm:text-xs">
+                  AMPScript
+                </span>
+                <span class="inter-medium inter-medium cursor-pointer rounded-full border border-black px-3 py-1.5 text-[12px] text-black transition duration-150 hover:bg-black hover:text-white dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-400 sm:text-xs">
+                  API
                 </span>
               </div>
             </div>

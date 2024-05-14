@@ -5,7 +5,7 @@ import { useState } from "react";
 import { useForm } from "react-hook-form";
 import useWeb3Forms from "@web3forms/react";
 import LargeText from "@/components/LargeText";
-import  { motion } from "framer-motion";
+import { motion } from "framer-motion";
 import {
   MapPinIcon,
   EnvelopeIcon,
@@ -48,9 +48,7 @@ export default function Contact({ settings }) {
 
   return (
     <Container large alt>
-
-
-      <motion.div 
+      <motion.div
         initial={{ y: 50, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         transition={{
@@ -59,7 +57,7 @@ export default function Contact({ settings }) {
           delay: 0.0
         }}
         viewport={{ once: true }}
-      className="mx-auto my-10 grid w-full px-8 md:grid-cols-2 lg:max-w-5xl lg:px-0">
+        className="mx-auto my-10 grid w-full px-8 md:grid-cols-2 lg:max-w-5xl lg:px-0">
         <div className="my-10">
           <div>
             <h2 class="inter-medium text-2xl font-extrabold tracking-tight md:text-6xl md:leading-tight">
@@ -213,7 +211,7 @@ export default function Contact({ settings }) {
             </div>
           )}
         </div>
-      </motion.div >
+      </motion.div>
     </Container>
   );
 }
