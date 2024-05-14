@@ -91,7 +91,7 @@ export default function Engagement() {
                   <div class="flex w-full items-center justify-between">
                     <span>Tech:</span>
                     <span className="text-right">
-                      JavaScript, AMPScript, HTML/CSS
+                AMPScript, HTML/CSS
                     </span>
                   </div>
                 </li>
