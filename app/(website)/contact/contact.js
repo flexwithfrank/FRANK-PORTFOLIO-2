@@ -5,6 +5,7 @@ import { useState } from "react";
 import { useForm } from "react-hook-form";
 import useWeb3Forms from "@web3forms/react";
 import LargeText from "@/components/LargeText";
+import  { motion } from "framer-motion";
 import {
   MapPinIcon,
   EnvelopeIcon,
@@ -25,7 +26,8 @@ export default function Contact({ settings }) {
   const [isSuccess, setIsSuccess] = useState(false);
   const [message, setMessage] = useState(false);
   // Please update the Access Key in the Sanity CMS - Site Congig Page
-  const apiKey = settings?.w3ckey || "2f0b5c82-98ca-40c4-968e-4ac84edb4438";
+  const apiKey =
+    settings?.w3ckey || "2f0b5c82-98ca-40c4-968e-4ac84edb4438";
 
   const { submit: onSubmit } = useWeb3Forms({
     access_key: apiKey,
@@ -46,17 +48,28 @@ export default function Contact({ settings }) {
 
   return (
     <Container large alt>
-      <div>
-        <LargeText h1="Get In Touch" h2="Get In Touch Get In Touch" color="#000" />
-      </div>
-      <div className="my-10 grid md:grid-cols-2 lg:max-w-5xl mx-auto w-full lg:px-0 px-8">
+
+
+      <motion.div 
+        initial={{ y: 50, opacity: 0 }}
+        whileInView={{ y: 0, opacity: 1 }}
+        transition={{
+          duration: 0.5,
+          ease: "easeOut",
+          delay: 0.0
+        }}
+        viewport={{ once: true }}
+      className="mx-auto my-10 grid w-full px-8 md:grid-cols-2 lg:max-w-5xl lg:px-0">
         <div className="my-10">
-          {/* <h2 className="text-3xl font-semibold dark:text-white text-[#000] impact uppercase">
-            HAPPY TO HELP
-          </h2> */}
+          <div>
+            <h2 class="inter-medium text-2xl font-extrabold tracking-tight md:text-6xl md:leading-tight">
+              Get In Touch
+            </h2>
+          </div>
           <p className="dm-sans-med mt-5 max-w-sm text-xl text-[#000]">
-            Please get in touch via the form below, I will get back to you
-            as soon as possible. I look forward to hearing from you! 
+            Please get in touch via the form below, I will get back to
+            you as soon as possible. I look forward to hearing from
+            you!
           </p>
 
           <div className="dm-sans-med mt-5">
@@ -145,7 +158,7 @@ export default function Contact({ settings }) {
               <textarea
                 name="message"
                 placeholder="Your Message"
-                className={`h-36 w-full rounded-md border px-4 py-3 outline-none placeholder:text-gray-800   focus:ring-4 dark:bg-gray-900  dark:text-white dark:placeholder:text-gray-200 bg-transparent dm-sans-med ${
+                className={`dm-sans-med h-36 w-full rounded-md border bg-transparent px-4 py-3   outline-none placeholder:text-gray-800  focus:ring-4 dark:bg-gray-900 dark:text-white dark:placeholder:text-gray-200 ${
                   errors.message
                     ? "border-red-600 ring-red-100 focus:border-red-600 dark:ring-0"
                     : "dm-sans-med border-gray-300 bg-transparent ring-gray-100 focus:border-gray-600 dark:border-gray-600 dark:ring-0 dark:focus:border-white"
@@ -164,7 +177,7 @@ export default function Contact({ settings }) {
 
             <button
               type="submit"
-              className="w-full rounded-md bg-gray-900 px-7 py-4 font-semibold text-white transition-colors hover:bg-gray-800 focus:outline-none focus:ring focus:ring-gray-200 focus:ring-offset-2 dark:bg-white dark:text-black centima uppercase">
+              className="inter-medium w-full rounded-md bg-gray-900 px-7 py-4 font-semibold text-white transition-colors hover:bg-gray-800 focus:outline-none focus:ring focus:ring-gray-200 focus:ring-offset-2 dark:bg-white dark:text-black">
               {isSubmitting ? (
                 <svg
                   className="mx-auto h-5 w-5 animate-spin text-white dark:text-black"
@@ -199,10 +212,8 @@ export default function Contact({ settings }) {
               {message || "Something went wrong. Please try later."}
             </div>
           )}
-
-          
         </div>
-      </div>
+      </motion.div >
     </Container>
   );
 }

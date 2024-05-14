@@ -274,20 +274,20 @@ export default function ProjectGrid() {
           }}
           viewport={{ once: true }}
           className="group relative h-full">
-          <a
+          <Link
             className=" flex h-full flex-col justify-between space-y-32 rounded-3xl bg-[#f2f4f7] p-8"
-            href="https://www.studio3fit.com/trainers">
+            href="contact-us">
             <div class="align-center mx-auto items-center justify-center overflow-hidden rounded-2xl bg-gray-100 pt-20 transition-transform duration-500 ease-in-out group-hover:scale-105">
               <img
-                class="mx-auto rounded-2xl object-cover px-12 lg:max-w-[300px]"
-                src="https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/81p7eutj/5sd/25a/lef/TRAINER%20CARD%20V2%402x.png"
+                class="mx-auto rounded-2xl object-cover px-12 lg:max-w-[325px]"
+                src="https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/81p7eutj/57h/dhj/vky/Untitled%20design%20%287%29_1.png"
                 alt="Image Description"
               />
             </div>
 
             <div>
               <h3 class="inter-medium relative inline-block pb-2 text-2xl font-bold tracking-tight text-black before:absolute before:bottom-0.5 before:start-0 before:-z-[1] before:h-1 before:w-full before:origin-left before:scale-x-0 before:transition group-hover:before:scale-x-100 dark:text-white">
-                Boutique Wellness
+                Contact Us
               </h3>
               <div class="mt-3 flex flex-wrap gap-2">
                 <span class="inter-medium cursor-pointer rounded-full border border-black px-3 py-1.5 text-[12px] text-black transition duration-150 hover:bg-black hover:text-white dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-400 sm:text-xs">
@@ -299,9 +299,15 @@ export default function ProjectGrid() {
                 <span class="inter-medium inter-medium cursor-pointer rounded-full border border-black px-3 py-1.5 text-[12px] text-black transition duration-150 hover:bg-black hover:text-white dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-400 sm:text-xs">
                   Javascript
                 </span>
+                <span class="inter-medium inter-medium cursor-pointer rounded-full border border-black px-3 py-1.5 text-[12px] text-black transition duration-150 hover:bg-black hover:text-white dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-400 sm:text-xs">
+                  AMPScript
+                </span>
+                <span class="inter-medium inter-medium cursor-pointer rounded-full border border-black px-3 py-1.5 text-[12px] text-black transition duration-150 hover:bg-black hover:text-white dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-400 sm:text-xs">
+                  Lead Routing
+                </span>
               </div>
             </div>
-          </a>
+          </Link>
         </motion.div>
         {/* grid */}
 

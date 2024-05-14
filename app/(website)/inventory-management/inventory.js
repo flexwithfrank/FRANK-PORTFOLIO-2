@@ -89,7 +89,9 @@ export default function Inventory() {
                 <li class="text-md -mt-px inline-flex items-center gap-x-2 px-4 py-3 first:mt-0 first:rounded-t-lg last:rounded-b-lg dark:border-neutral-700 dark:text-neutral-200">
                   <div class="flex w-full items-center justify-between">
                     <span>Tech:</span>
-                    <span className="text-right">JavaScript, AMPScript, HTML/CSS</span>
+                    <span className="text-right">
+                      JavaScript, AMPScript, HTML/CSS
+                    </span>
                   </div>
                 </li>
                 <li class="text-md -mt-px inline-flex items-center gap-x-2 px-4 py-3 first:mt-0 first:rounded-t-lg last:rounded-b-lg dark:border-neutral-700 dark:text-neutral-200">
@@ -110,6 +112,7 @@ export default function Inventory() {
                     <span>
                       <a
                         href="https://cloud.marketing.fiskerinc.com/search-inventory"
+                        target="_blank"
                         className="font-bold underline">
                         Search Inventory
                       </a>
@@ -154,8 +157,7 @@ export default function Inventory() {
 
               <div class="max-w-full pb-6">
                 <h2 class="inter-medium text-2xl font-bold tracking-tight md:text-4xl md:leading-tight">
-                  Serving personalized vehicle features leading to
-                  higher conversion rates
+                  Personalized Experiences Drive Higher Conversions
                 </h2>
               </div>
 
@@ -213,7 +215,7 @@ export default function Inventory() {
           <div class="h-full overflow-hidden rounded-3xl object-cover">
             <img
               class="hover-effect w-full rounded-3xl object-cover"
-              src="https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/81p7eutj/ai8/jn0/ukg/Group%2062.png"
+              src="https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/81p7eutj/ooi/98i/jso/Group%20124%20%281%29.png"
               alt="Image Description"
             />
           </div>

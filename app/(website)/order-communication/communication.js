@@ -63,10 +63,7 @@ export default function Communication() {
                 }}
                 viewport={{ once: true }}
                 className="inter-light col-span-4 text-[#000] lg:col-span-6">
-                This series of emails was designed to engage customers
-                during the waiting period of the vehicle production
-                process. The goal was to keep customers informed and
-                excited about their purchase.
+                These emails were crafted to engage customers throughout the vehicle production process, keeping them informed and excited about their purchase. Developed with AMPscript, each customer received relevant content based on their vehicle's build stage, resulting in high satisfaction and engagement.
               </motion.div>
 
               {/*<!-- End Rounded full basic base sized badge --> */}
@@ -108,7 +105,7 @@ export default function Communication() {
                     <span>Preview:</span>
                     <span>
                       <a
-                        href="https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/81p7eutj/mr2/aux/2z2/screencapture-view-marketing-fiskerinc-2024-05-11-09_26_00.png"
+                        href="https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/81p7eutj/mr2/aux/2z2/screencapture-view-marketing-fiskerinc-2024-05-11-09_26_00.png" target="_blank"
                         className="font-bold underline">
                         Email Preview
                       </a>

@@ -110,7 +110,7 @@ export default function Loyalty() {
                     <span>Preview:</span>
                     <span>
                       <a
-                        href="https://cloud.marketing.fiskerinc.com/rewards"
+                        href="https://cloud.marketing.fiskerinc.com/rewards" target="_blank"
                         className="font-bold underline">
                         Loyalty Program
                       </a>
@@ -166,9 +166,8 @@ export default function Loyalty() {
               <div className="text-[#000]">
                 I collaborated with a team of designers to create a
                 loyalty program that rewards customers for their
-                continued support. By providing a seamless experience,
-                customers can easily earn and redeem points for
-                exclusive Fisker Edition Rewards.
+                continued support. Members received automated emails at every step of the way, from sign-up to reward redemption. This
+                program drove high customer engagement and retention.
               </div>
             </div>
           </div>

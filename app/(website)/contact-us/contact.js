@@ -9,7 +9,7 @@ import OpenText from "@/components/OpenText";
 import { motion } from "framer-motion";
 import Link from "next/link";
 
-export default function Details() {
+export default function Contact() {
   return (
     <div className="mx-auto mt-0 min-h-screen w-full max-w-[85rem] bg-[#fff] text-left">
       {/*<!-- Component: Two columns even layout --> */}
@@ -49,7 +49,7 @@ export default function Details() {
                   Back
                 </Link>
                 <h2 class="inter-medium text-2xl font-extrabold tracking-tight md:text-6xl md:leading-tight">
-                  Vehicle Configurator
+                  Contact Us
                 </h2>
               </motion.div>
 
@@ -63,13 +63,13 @@ export default function Details() {
                 }}
                 viewport={{ once: true }}
                 className="inter-light col-span-4 text-[#000] lg:col-span-6">
-                Crafted using HTML, Tailwind CSS, and JavaScript, this
-                dynamic platform offers customers an interactive
-                experience, allowing them to visualize their dream
-                vehicle. Seamlessly blending design and functionality,
-                the configurator provides an intuitive interface for
-                users to customize every aspect of their dream ride,
-                from paint color to interior features.
+                I redesigned Fisker Inc's existing Contact Us page to
+                feature a user-friendly form, enabling users to submit
+                queries and receive responses within 24 hours. The
+                form seamlessly integrates with Salesforce, ensuring
+                all inquiries are logged, tracked, and routed to the
+                appropriate team. The outcome? Enhanced lead
+                management efficiency and an improved user experience.
               </motion.div>
 
               {/*<!-- End Rounded full basic base sized badge --> */}
@@ -90,20 +90,20 @@ export default function Details() {
                   <div class="flex w-full items-center justify-between">
                     <span>Tech:</span>
                     <span className="text-right">
-                      Javascript, AMPScript, HTML/CSS
+                      JavaScript, AMPScript, HTML/CSS
                     </span>
                   </div>
                 </li>
                 <li class="text-md -mt-px inline-flex items-center gap-x-2 px-4 py-3 first:mt-0 first:rounded-t-lg last:rounded-b-lg dark:border-neutral-700 dark:text-neutral-200">
                   <div class="flex w-full items-center justify-between">
                     <span>Revenue:</span>
-                    <span>$12M+</span>
+                    <span>N/A</span>
                   </div>
                 </li>
                 <li class="font-semibold-mt-px text-md inline-flex items-center gap-x-2 px-4 py-3 first:mt-0 first:rounded-t-lg last:rounded-b-lg dark:border-neutral-700 dark:bg-neutral-800 dark:text-neutral-200">
                   <div class="flex w-full items-center justify-between">
                     <span>Date:</span>
-                    <span>Dec. 2023</span>
+                    <span>September. 2023</span>
                   </div>
                 </li>
                 <li class="font-semibold-mt-px text-md inline-flex items-center gap-x-2 px-4 py-3 first:mt-0 first:rounded-t-lg last:rounded-b-lg dark:border-neutral-700 dark:bg-neutral-800 dark:text-neutral-200">
@@ -111,10 +111,9 @@ export default function Details() {
                     <span>Preview:</span>
                     <span>
                       <a
-                        href="https://cloud.marketing.fiskerinc.com/dealer-x"
-                        target="_blank"
+                        href="https://www.fiskerinc.com/contact" target="_blank"
                         className="font-bold underline">
-                        Vehicle Configurator
+                        Contact Us
                       </a>
                     </span>
                   </div>
@@ -136,7 +135,7 @@ export default function Details() {
         }}
         viewport={{ once: true }}
         className="w-full px-12 py-12">
-        <div class="object-fit h-96 w-full rounded-2xl bg-[url('https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/81p7eutj/fii/ihn/u9s/Group%2065%20%281%29.png')] bg-cover bg-center bg-no-repeat sm:h-[650px] lg:object-contain"></div>
+        <div class="object-fit h-96 w-full rounded-2xl bg-[url('https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/81p7eutj/uj2/56v/qx8/Group%20120%20%281%29.png')] bg-cover bg-center bg-no-repeat sm:h-[650px] lg:object-contain"></div>
       </motion.div>
 
       {/*<!-- Component: Two columns even layout --> */}
@@ -157,7 +156,7 @@ export default function Details() {
 
               <div class="max-w-full pb-6">
                 <h2 class="inter-medium text-2xl font-bold tracking-tight md:text-4xl md:leading-tight">
-                  Data Driven Abandoned Cart Follow-Up
+                  Pre qualify leads for quicker customer resolution.
                 </h2>
               </div>
 
@@ -165,10 +164,11 @@ export default function Details() {
             </div>
             <div className="inter-light w-full">
               <div className="text-[#000]">
-                Customers received personalized emails tailored to
-                their configuration, backed by data-driven insights.
-                Implementing an abandoned cart-style approach resulted
-                in a 20% increase in conversion rates."
+                By pre-qualifying leads, our Contact Us form
+                efficiently directs inquiries to the right teams for
+                faster resolution. This enhancement boosted customer
+                satisfaction by 50% and increased conversion rates by
+                30%.
               </div>
             </div>
           </div>
@@ -193,7 +193,7 @@ export default function Details() {
           <div className="h-full overflow-hidden rounded-3xl object-cover">
             <img
               class="w-full rounded-3xl object-cover"
-              src="https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/81p7eutj/w3l/p6k/bzv/Group%2070.png"
+              src="https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/81p7eutj/cmo/1jg/ppi/Group%20121.png"
               alt="Image Description"
             />
           </div>
@@ -213,14 +213,14 @@ export default function Details() {
           <div class="h-full overflow-hidden rounded-3xl object-cover">
             <img
               class="hover-effect w-full rounded-3xl object-cover"
-              src="https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/81p7eutj/mjb/5ot/9qi/Group%2066.png"
+              src="https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/81p7eutj/sfl/b7s/jv6/Group%20123.png"
               alt="Image Description"
             />
           </div>
           <div class="w-full">
             <img
               class="w-full rounded-3xl object-cover"
-              src="https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/81p7eutj/y51/yxo/ske/Group%2069.png"
+              src="https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/81p7eutj/oxs/qzq/nr3/Group%20122.png"
               alt="Image Description"
             />
           </div>
