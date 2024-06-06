@@ -21,7 +21,7 @@ export default function NavbarV4() {
               <h1 class="text-md mx-auto hidden w-full font-bold text-[#000000] lg:block">
                 Frank Rodriguez | SFMC Developer
               </h1>
-              <h1 class="text-md inter-medium mx-auto block max-w-4xl font-bold text-[#000000] lg:hidden">
+              <h1 class="text-md oswald-medium mx-auto block max-w-4xl font-bold text-[#000000] lg:hidden">
                 F. Rodriguez
               </h1>
             </Link>
@@ -124,17 +124,20 @@ export default function NavbarV4() {
             data-hs-overlay-close-on-resize>
             <div class="mt-5 flex flex-col gap-x-0 gap-y-4 sm:mt-0 sm:flex-row sm:items-center sm:justify-end sm:gap-x-7 sm:gap-y-0 sm:ps-7">
               <a
+                href="https://drive.google.com/file/d/1VhQJRjAcaxgzWF3UySGMa3ibmXbT2BV7/view" target="_blank"
+                className="w-28 px-6 sm:px-0 sm:py-6">
+                <h1 class="oswald-medium text-md mx-auto font-extrabold text-gray-800">
+                  Resume
+                </h1>
+              </a>
+
+              <a
                 href="https://vfr-porfolio.vercel.app/#projects"
                 className="w-28 px-6 sm:px-0 sm:py-6">
                 <h1 class="oswald-medium text-md mx-auto font-extrabold text-gray-800">
                   Projects
                 </h1>
               </a>
-              {/* <Link href="/home/lifestyle" className="w-28 px-6 sm:px-0 sm:py-6">
-                <h1 class="oswald-medium text-md mx-auto font-extrabold text-gray-800">
-                  BLOG
-                </h1>
-              </Link> */}
 
               <Link
                 href="/contact"
@@ -154,7 +157,7 @@ export default function NavbarV4() {
         tabindex="-1">
         <div class="flex items-center justify-between px-4 py-3 lg:px-8">
           <Link href="/" className="w-60">
-            <h1 class="oswald-medium mx-auto hidden w-full text-sm font-bold uppercase text-[#fff] lg:block">
+            <h1 class="oswald-medium mx-auto block w-full text-sm font-bold uppercase text-[#fff]">
               Frank Rodriguez | SFMC Developer
             </h1>
           </Link>
@@ -205,9 +208,16 @@ export default function NavbarV4() {
               <ul className="flex flex-col gap-8 space-y-3 pb-4 pt-8 text-left text-sm lg:gap-12 lg:pt-12">
                 <li className="rounded-sm">
                   <a
-                    href="https://vfr-porfolio.vercel.app/#projects"
+                    href="https://drive.google.com/file/d/1VhQJRjAcaxgzWF3UySGMa3ibmXbT2BV7/view" target="_blank"
                     className="oswald-medium text-md mx-auto rounded-md py-2 font-extrabold uppercase text-white sm:px-0 sm:py-6">
-                    Project
+                    Resume
+                  </a>
+                </li>
+                <li className="rounded-sm">
+                  <a
+                    href="https://vfr-portfolio.vercel.app/#projects"
+                    className="oswald-medium text-md mx-auto rounded-md py-2 font-extrabold uppercase text-white sm:px-0 sm:py-6">
+                    Projects
                   </a>
                 </li>
                 <li className="rounded-sm">

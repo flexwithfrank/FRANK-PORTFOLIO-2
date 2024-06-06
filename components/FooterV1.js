@@ -16,7 +16,7 @@ export default function FooterV1() {
                   Connect with me.
                 </h1>
                 <div className="mx-auto max-w-md">
-                  <p class="dm-sans-med mt-10 text-black dark:text-gray-400">
+                  <p class="inter-light mt-10 text-black dark:text-gray-400">
                     Stay in the loop with my latest projects! Sign up
                     for my newsletter and never worry about receiving
                     spam - promise!
@@ -38,15 +38,15 @@ export default function FooterV1() {
               <footer class="bg-transparent pt-10">
                 <div class="align-center mx-auto flex max-w-6xl flex-col items-center justify-between px-4 py-8 sm:px-6 lg:flex-row lg:px-16">
                   <div class="relative z-50 flex justify-center text-black">
-                    <span className="centima font-extrabold uppercase leading-tight">
+                    <span className="oswald-medium font-extrabold uppercase leading-tight">
                       FRANK RODRIGUEZ &copy;
                     </span>
                   </div>
 
-                  <ul class="dm-sans-med mt-12 flex flex-wrap justify-center gap-6 lg:mt-0">
+                  <ul class="inter-light mt-12 flex flex-wrap justify-center gap-6 lg:mt-0">
                     <li>
                       <span>
-                        <p class="dm-sans-med mx-auto mt-6 max-w-md text-center text-xs leading-relaxed text-black lg:mt-0">
+                        <p class="inter-light mx-auto mt-6 max-w-md text-center text-xs leading-relaxed text-black lg:mt-0">
                           Copyright © 2024 Frank Rodriguez. All
                           Rights Reserved.
                         </p>
