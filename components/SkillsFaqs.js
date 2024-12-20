@@ -107,6 +107,57 @@ export default function SkillsFaqs() {
                 <button
                   class="hs-accordion-toggle group inline-flex w-full items-center justify-between gap-x-3 rounded-lg pb-3 text-start font-semibold text-gray-800 transition hover:text-gray-500 dark:text-neutral-200 dark:hover:text-neutral-400 md:text-lg"
                   aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-two inter-medium tracking-tight">
+                  Web Development
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke="currentColor"
+                    class="block size-6 flex-shrink-0 text-gray-600 group-hover:text-gray-500 hs-accordion-active:hidden dark:text-neutral-400">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M12 4.5v15m7.5-7.5h-15"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="hidden size-6 flex-shrink-0 text-gray-600 group-hover:text-gray-500 hs-accordion-active:block dark:text-neutral-400">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M5 12h14"
+                    />
+                  </svg>
+                </button>
+                <div
+                  id="hs-basic-with-title-and-arrow-stretched-collapse-two"
+                  class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
+                  aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-two inter-light">
+                  <p class="text-gray-600 dark:text-neutral-400">
+                    With over 10 years of experience in web
+                    development, I specialize in creating responsive
+                    and user-friendly websites that drive engagement
+                    and conversions. From customizing WordPress themes
+                    to developing interactive web applications, I
+                    leverage the latest technologies and best
+                    practices to deliver seamless digital experiences.
+                  </p>
+                </div>
+              </div>
+              {/* skill 1 */}
+              {/* skill 1 */}
+              <div
+                class="hs-accordion pb-3 pt-6"
+                id="hs-basic-with-title-and-arrow-stretched-heading-two">
+                <button
+                  class="hs-accordion-toggle group inline-flex w-full items-center justify-between gap-x-3 rounded-lg pb-3 text-start font-semibold text-gray-800 transition hover:text-gray-500 dark:text-neutral-200 dark:hover:text-neutral-400 md:text-lg"
+                  aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-two inter-medium tracking-tight">
                   AMPScript
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -142,7 +193,10 @@ export default function SkillsFaqs() {
                   <p class="text-gray-600 dark:text-neutral-400">
                     I utilize AMPScripts dynamic capabilities to
                     personalize and optimize email content, driving
-                    engagement and conversions. By crafting tailored messaging and dynamic content blocks, I create emails that speak directly to our audience, boosting engagement and conversions.
+                    engagement and conversions. By crafting tailored
+                    messaging and dynamic content blocks, I create
+                    emails that speak directly to our audience,
+                    boosting engagement and conversions.
                   </p>
                 </div>
               </div>
@@ -188,11 +242,11 @@ export default function SkillsFaqs() {
                   aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-two inter-light">
                   <p class="text-gray-600 dark:text-neutral-400">
                     Skilled in JavaScript, I harness its power to
-                    create interactive and dynamic email and web experiences.
-                    From implementing custom forms to integrating
-                    interactive elements, I leverage JavaScript to
-                    enhance user engagement and drive conversion
-                    rates.
+                    create interactive and dynamic email and web
+                    experiences. From implementing custom forms to
+                    integrating interactive elements, I leverage
+                    JavaScript to enhance user engagement and drive
+                    conversion rates.
                   </p>
                 </div>
               </div>
@@ -237,14 +291,13 @@ export default function SkillsFaqs() {
                   class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
                   aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-two inter-light">
                   <p class="text-gray-600 dark:text-neutral-400">
-                   I create visually compelling
-                    and responsive email designs that effectively
-                    engage audiences while ensuring
-                    consistent branding and seamless user experiences
-                    across email/web campaigns. Leveraging the latest
-                    HTML/CSS techniques, I develop engaging layouts
-                    and optimize email deliverability for maximum
-                    impact.
+                    I create visually compelling and responsive email
+                    designs that effectively engage audiences while
+                    ensuring consistent branding and seamless user
+                    experiences across email/web campaigns. Leveraging
+                    the latest HTML/CSS techniques, I develop engaging
+                    layouts and optimize email deliverability for
+                    maximum impact.
                   </p>
                 </div>
               </div>
@@ -256,7 +309,7 @@ export default function SkillsFaqs() {
                 <button
                   class="hs-accordion-toggle group inline-flex w-full items-center justify-between gap-x-3 rounded-lg pb-3 text-start font-semibold text-gray-800 transition hover:text-gray-500 dark:text-neutral-200 dark:hover:text-neutral-400 md:text-lg"
                   aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-two inter-medium tracking-tight">
-                  Email 
+                  Email
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -289,7 +342,13 @@ export default function SkillsFaqs() {
                   class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
                   aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-two inter-light">
                   <p class="text-gray-600 dark:text-neutral-400">
-                  As a passionate email developer, I thrive on crafting engaging designs and optimizing user experiences for impactful campaigns. My expertise also extends to creating dynamic global emails that deliver culturally relevant content based on each user's location, ensuring a personalized touch that resonates worldwide.
+                    As a passionate email developer, I thrive on
+                    crafting engaging designs and optimizing user
+                    experiences for impactful campaigns. My expertise
+                    also extends to creating dynamic global emails
+                    that deliver culturally relevant content based on
+                    each user's location, ensuring a personalized
+                    touch that resonates worldwide.
                   </p>
                 </div>
               </div>
@@ -388,11 +447,10 @@ export default function SkillsFaqs() {
                     I have a strong background in implementing
                     automation strategies to streamline processes and
                     improve operational efficiency. From setting up
-                    triggered sends to creating dynamic content blocks,
-                    I leverage automation tools to enhance marketing
-                    workflows and drive personalized customer
-                    experiences.
-                  
+                    triggered sends to creating dynamic content
+                    blocks, I leverage automation tools to enhance
+                    marketing workflows and drive personalized
+                    customer experiences.
                   </p>
                 </div>
               </div>

@@ -51,7 +51,7 @@ export default function Skills() {
                     </svg>
 
                     <h3 class="inter-medium pt-2 text-lg font-semibold tracking-tight text-black sm:text-xl">
-                      Salesforce Developer
+                      Web Developer
                     </h3>
                     <p class="inter-medium mt-1 text-sm text-gray-400 sm:text-base">
                       10+ yrs

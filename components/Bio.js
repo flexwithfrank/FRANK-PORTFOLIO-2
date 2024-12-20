@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable @next/next/no-img-element */
 "use client";
@@ -42,7 +43,7 @@ export default function Bio() {
           <p
             id="whiteFont"
             class="inter-medium text-xl tracking-tight text-black sm:text-2xl md:text-3xl md:leading-tight">
-            Hey there! I'm a Salesforce Developer who loves crafting
+            Hey there! I&apos;m a Marketing Developer who loves crafting
             seamless digital experiences and creating content that
             converts like magic.
             <svg

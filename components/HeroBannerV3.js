@@ -33,7 +33,7 @@ export default function HeroBannerV3() {
                 delay: 0.15
               }}
               class="inter-medium block text-3xl font-bold tracking-tighter text-neutral-400 dark:text-white sm:text-4xl lg:text-7xl lg:leading-tight">
-              Salesforce Developer.
+              Marketing Developer.
             </motion.h1>
           </div>
           <motion.div

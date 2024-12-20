@@ -19,10 +19,10 @@ export default function NavbarV4() {
           <div class="flex items-center justify-between">
             <Link href="/" className="p-2 lg:w-full">
               <h1 class="text-md mx-auto hidden w-full font-bold text-[#000000] lg:block">
-                Frank Rodriguez | SFMC Developer
+                Frank Rodriguez | Marketing Developer
               </h1>
               <h1 class="text-md oswald-medium mx-auto block max-w-4xl font-bold text-[#000000] lg:hidden">
-                F. Rodriguez
+                F. Rodriguez | Developer
               </h1>
             </Link>
           </div>
